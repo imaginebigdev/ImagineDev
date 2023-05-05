@@ -1,17 +1,20 @@
 [
   {
-    "icon": "fab fa-github",
-    "title": "Github",
-    "description": "Open Source & Commnit Code"
+    "icon": "fab fa-instagram",
+    "title": "Instagram",
+    "description": "Our team & clients",
+    "link": "https://www.instagram.com/imaginebigdev/"
   },
   {
     "icon": "fab fa-twitter",
     "title": "Twitter",
-    "description": "Latest News & Update"
+    "description": "Latest News & Update",
+    "link": "https://twitter.com/imaginebigdev"
   },
   {
-    "icon": "fab fa-telegram",
-    "title": "Telegram",
-    "description": "Chanel for Community"
+    "icon": "fab fa-youtube",
+    "title": "Youtube",
+    "description": "Chanel for Community",
+    "link": "https://www.youtube.com/@imaginebignet"
   }
 ]
