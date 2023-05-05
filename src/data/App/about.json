@@ -2,7 +2,10 @@
   "features": [
     { "icon": "fas fa-tag", "title": "Filtering notes using matched keywords" },
     { "icon": "fas fa-sync", "title": "Automatically sync in real times" },
-    { "icon": "fas fa-text-width", "title": "Complete note editor with rich text options" }
+    {
+      "icon": "fas fa-text-width",
+      "title": "Complete note editor with rich text options"
+    }
   ],
   "accordions": [
     {
@@ -28,10 +31,10 @@
     { "active": false, "title": "Easy to switch between light and dark mode" }
   ],
   "integrations": [
-    "/assets/img/about/intg1.png",
-    "/assets/img/about/intg5.png",
-    "/assets/img/about/intg4.png",
-    "/assets/img/about/intg3.png",
-    "/assets/img/about/intg2.png"
+    "/assets/img/about/1.png",
+    "/assets/img/about/5.png",
+    "/assets/img/about/4.png",
+    "/assets/img/about/3.png",
+    "/assets/img/about/2.png"
   ]
 }
