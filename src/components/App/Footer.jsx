@@ -142,10 +142,8 @@ const Footer = ({ noWave, rtl }) => {
         </div>
         <div className="copywrite text-center">
           <small className="small">
-            {rtl ? "© 2022 حقوق التأليف والنشر" : "© 2022 Copyrights by"}{" "}
-            <a href="#" className="fw-bold text-decoration-underline">
-              Iteck Co.
-            </a>{" "}
+            {rtl ? "© 2022 حقوق التأليف والنشر" : "© 2023 Copyrights by"}{" "}
+            <a className="fw-bold text-decoration-underline">Imagine Big</a>{" "}
             {rtl
               ? "كل الحقوق محفوظة. صمم بواسطة"
               : "All Rights Reserved. Designed by"}{" "}
@@ -153,7 +151,7 @@ const Footer = ({ noWave, rtl }) => {
               href="https://themeforest.net/user/themescamp"
               className="fw-bold text-decoration-underline"
             >
-              ThemesCamp
+              Imagine Big
             </a>
           </small>
         </div>

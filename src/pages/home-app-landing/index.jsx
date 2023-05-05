@@ -35,9 +35,9 @@ const HomeAppLanding = () => {
         <Navbar navbarRef={navbarRef} />
         <Header />
         <main>
-          <Clients />
           <About />
           <Screenshots />
+          <Clients />
           <FAQ />
           <Community />
         </main>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -14,20 +14,37 @@ const About = () => {
             <div className="info">
               <div className="section-head style-9 mb-40">
                 <h6 className=" wow fadeInUp"> about company </h6>
-                <h2 className=" wow fadeInUp"> Safeguard Sites With Staging & Backups </h2>
+                <h2 className=" wow fadeInUp">
+                  {" "}
+                  Safeguard Sites With Staging & Backups{" "}
+                </h2>
               </div>
               <ul>
                 <li className=" wow fadeInUp">
                   <span className="icon">
                     <img src="/assets/img/icons/ab9_1.png" alt="" />
                   </span>
-                  <p> <strong className="color-darkBlue2"> Safely test changes: </strong> Test site updates, code modifications & content change. </p>
+                  <p>
+                    {" "}
+                    <strong className="color-darkBlue2">
+                      {" "}
+                      Safely test changes:{" "}
+                    </strong>{" "}
+                    Test site updates, code modifications & content change.{" "}
+                  </p>
                 </li>
                 <li className=" wow fadeInUp">
                   <span className="icon">
                     <img src="/assets/img/icons/ab9_2.png" alt="" />
                   </span>
-                  <p> <strong className="color-darkBlue2"> Easy development: </strong> Deploy files and database changes from your site. </p>
+                  <p>
+                    {" "}
+                    <strong className="color-darkBlue2">
+                      {" "}
+                      Easy development:{" "}
+                    </strong>{" "}
+                    Deploy files and database changes from your site.{" "}
+                  </p>
                 </li>
               </ul>
               <div className="call-info pt-40 mt-40 wow fadeInUp">
@@ -39,7 +56,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
