@@ -36,11 +36,8 @@ const HomeAppLanding = () => {
         <Header />
         <main>
           <Clients />
-          <Features />
           <About />
           <Screenshots />
-          <Testimonials />
-          <Pricing />
           <FAQ />
           <Community />
         </main>
