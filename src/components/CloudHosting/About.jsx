@@ -7,50 +7,54 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="img wow fadeIn">
-              <img src="/assets/img/about/about9.svg" alt="" />
+              <img src="/assets/img/about/about9.png" alt="" />
             </div>
           </div>
           <div className="col-lg-6">
             <div className="info">
               <div className="section-head style-9 mb-40">
-                <h6 className=" wow fadeInUp"> about company </h6>
-                <h2 className=" wow fadeInUp">
-                  {" "}
-                  Safeguard Sites With Staging & Backups{" "}
-                </h2>
+                <h6 className=" wow fadeInUp" style={{ fontSize: "2rem" }}>
+                  about company
+                </h6>
               </div>
               <ul>
                 <li className=" wow fadeInUp">
                   <span className="icon">
-                    <img src="/assets/img/icons/ab9_1.png" alt="" />
+                    <img src="/assets/img/icons/about/1.png" alt="" />
                   </span>
                   <p>
-                    {" "}
-                    <strong className="color-darkBlue2">
-                      {" "}
-                      Safely test changes:{" "}
-                    </strong>{" "}
-                    Test site updates, code modifications & content change.{" "}
+                    <strong className="color-darkBlue2">WHO WE ARE</strong>
+                    <br />
+                    IMAGINEBiG® is a development agency and software factory
+                    that puts your brand at the center of consumers' attention.
                   </p>
                 </li>
                 <li className=" wow fadeInUp">
                   <span className="icon">
-                    <img src="/assets/img/icons/ab9_2.png" alt="" />
+                    <img src="/assets/img/icons/about/2.png" alt="" />
                   </span>
                   <p>
-                    {" "}
-                    <strong className="color-darkBlue2">
-                      {" "}
-                      Easy development:{" "}
-                    </strong>{" "}
-                    Deploy files and database changes from your site.{" "}
+                    <strong className="color-darkBlue2">Our MISSION:</strong>
+                    <br />
+                    To provide high quality, customized technology solutions to
+                    help our clients achieve their business objectives and
+                    improve their competitiveness in the marketplace.
+                  </p>
+                </li>
+                <li className=" wow fadeInUp">
+                  <span className="icon">
+                    <img src="/assets/img/icons/about/3.png" alt="" />
+                  </span>
+                  <p>
+                    <strong className="color-darkBlue2">Our VISION:</strong>
+                    <br />
+                    To be a leading organization in the industry, recognized for
+                    excellence, innovation and customer focus; with a
+                    collaborative work culture that allows us to continuously
+                    improve the quality of our products and services.
                   </p>
                 </li>
               </ul>
-              <div className="call-info pt-40 mt-40 wow fadeInUp">
-                <h5> Call 000-111-2220 or Chat Now </h5>
-                <p> International calling fees may apply </p>
-              </div>
             </div>
           </div>
         </div>
