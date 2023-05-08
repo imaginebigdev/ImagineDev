@@ -16,5 +16,11 @@
     "title": "Youtube",
     "description": "Chanel for Community",
     "link": "https://www.youtube.com/@imaginebignet"
+  },
+  {
+    "icon": "fab fa-linkedin",
+    "title": "Linkdin",
+    "description": "business Community",
+    "link": "https://www.linkedin.com/company/imaginebig/"
   }
 ]
