@@ -22,7 +22,7 @@ const PageContactApp = () => {
   return (
     <>
       <Head>
-        <title>Iteck - Contact App</title>
+        <title>Imagine Big - Contact</title>
       </Head>
 
       <MainLayout>

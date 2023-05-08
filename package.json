@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",    
+    "start": "next start",
     "export": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "axios": "^0.27.2",
     "lightgallery": "^2.5.0",
     "next": "^12.0.7",
