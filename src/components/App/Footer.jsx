@@ -41,10 +41,7 @@ const Footer = ({ noWave, rtl }) => {
           <div className="d-flex align-items-center justify-content-center mt-50">
             <Link href="/contact">
               <a className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
-                <small>
-                  {" "}
-                  {rtl ? "تنزيل من متجر التطبيقات" : "CONTACTANOS"}
-                </small>
+                <small> {rtl ? "تنزيل من متجر التطبيقات" : "CONTACT US"}</small>
               </a>
             </Link>
           </div>
