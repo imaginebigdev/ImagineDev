@@ -1,74 +1,48 @@
 [
   {
     "id": 1,
-    "question": "How Benefit That I Got When Choose Basic Plan?",
+    "question": "How to give a boost for my project to take off?",
     "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
+      "part1": "We have different software factory solutions and digital marketing development, we present you an implementation plan and based on the expectation ",
+      "part2": " we deploy the schedule of tasks to be performed through Milestones and workflow, always in full weekly contact with our customers."
     }
   },
   {
     "id": 2,
-    "question": "How Do I Organize My Notes?",
+    "question": "How can I accelerate my sales project?",
     "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
+      "part1": "We have AceleraClick! an acceleration program in Digital Communication and Online marketing to create sales opportunities,",
+      "part2": " product positioning, improve brand branding, and create campaigns with advertising sales funnels in Social Networks as well as in GoogleAds."
     }
   },
   {
     "id": 3,
-    "question": "How Long For A Standard Project",
+    "question": "How to get my content noticed?",
     "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
+      "part1": "We have a content viralization solution. Trending, positions the product through a computerized process with information flow.",
+      "part2": " Using different social networks with a targeted and planned traffic, we generate online positioning and visibility in real time."
     }
   },
   {
     "id": 4,
-    "question": "How About Data Security & NDA Agreement",
+    "question": "How to develop my first APP?",
     "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
+      "part1": "Through our first meeting via Meet, we define aspects to carry out the project and then we implement a plan in 6 steps:",
+      "part3": ".2  We define the purpose of the application",
+      "part4":".3  Design the user interface",
+      "part5":".4  We choose the platform: Android, iOS or web",
+      "part6": ".5  We develop",
+      "part7":".6  We test the application, in test mode.",
+      "part8":".7  We launch the application, positioning it in the market."
+
     }
   },
   {
     "id": 5,
-    "question": "How Does Notero Store My Data?",
+    "question": "How long will it take to see growth results as a brand?",
     "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
-    }
-  },
-  {
-    "id": 6,
-    "question": "Does Notero Support Storing Data on iCloud?",
-    "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
-    }
-  },
-  {
-    "id": 7,
-    "question": "How Do I Change My Email or Password?",
-    "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
-    }
-  },
-  {
-    "id": 8,
-    "question": "Can My Premium License Be Used For All Devices?",
-    "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
-    }
-  },
-  {
-    "id": 9,
-    "question": "Can I Lock My Note App?",
-    "answer": {
-      "part1": "Through the collaboration with customers in discussing needs and demand, we're able to attain ",
-      "part2": " mutual understanding, gain customer trust to offer appropriate advice"
+      "part1": "Our recommendation is always a minimum of 3 months to create an ecosystem of information and digital programming for the outlined project to come to life and see results in the brand.",
+      "part2": " Our service agreement includes an action plan with a 6-month agreement, which can be renewed."
     }
   }
 ]
