@@ -10,7 +10,7 @@ import Team from "@components/App/Team";
 import Culture from "@components/App/Culture";
 import Footer from "@components/App/Footer";
 import About from "@components/CloudHosting/About";
-import ChooseUs from "@components/CloudHosting/ChooseUs";
+import ChooseUs from "@components/IT/ChooseUs";
 
 const PageAboutApp = () => {
   const navbarRef = useRef(null);
@@ -22,7 +22,7 @@ const PageAboutApp = () => {
   return (
     <>
       <Head>
-        <title>Iteck - About App</title>
+        <title>Imagine Big - About</title>
       </Head>
 
       <MainLayout>
@@ -30,8 +30,8 @@ const PageAboutApp = () => {
         <main className="about-page style-5">
           <About />
           <ChooseUs />
-          <Team />
-          <Culture />
+          {/* <Team />
+          <Culture /> */}
         </main>
         <Footer noWave />
       </MainLayout>
