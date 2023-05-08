@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FirstContent = ({ features, rtl }) => {
   return (
     <div className="content frs-content" id="about" data-scroll-index="2">
