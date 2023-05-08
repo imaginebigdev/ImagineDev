@@ -72,13 +72,11 @@ const FirstContent = ({ features, rtl }) => {
                   ))}
                 </div>
               </div>
-
-              <a
-                href="/contact"
-                className="btn rounded-pill bg-blue4 fw-bold text-white mt-50"
-              >
-                <small> Contact Us </small>
-              </a>
+              <Link to="/contact">
+                <a className="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
+                  <small> Contact Us </small>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
