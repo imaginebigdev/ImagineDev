@@ -2918,7 +2918,7 @@ small.text {
   border-top-right-radius: 20px;
 }
 .navbar.style-4 .navbar-brand {
-  width: 150px;
+  width: 200px;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -11747,6 +11747,7 @@ header.style-15 .countdown-content .logos img {
   background-color: #f0eff5;
   position: relative;
   z-index: 25;
+  padding-top: 30px;
 }
 .clients.style-4 .client-logos {
   border-bottom: 1px solid #9994;

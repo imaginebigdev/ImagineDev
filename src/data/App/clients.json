@@ -1,8 +1,65 @@
+
 [
-  "/assets/img/logos/1.png",
-  "/assets/img/logos/2.png",
-  "/assets/img/logos/3.png",
-  "/assets/img/logos/4.png",
-  "/assets/img/logos/5.png",
-  "/assets/img/logos/6.png"
-]
+  
+    {
+      "id": 1,
+      "image": "/assets/img/logos/logo-cliente01.png",
+      "url": "https://www.americaconstrucciones.com.ar/"
+    
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/logos/logo-cliente04.png",
+      "url": "https://xdrop.com.ar/"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/logos/logo-cliente03.png",
+      "url": "https://www.gearsautomatismos.com.ar/"
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/logos/logo-cliente02.png",
+      "url": "https://www.hdlab.com.ar/"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/logos/logo-cliente05.png",
+      "url": "https://www.youtube.com/watch?v=HOK4kzF5dUQ"
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/logos/logo-cliente06.png",
+      "url": "https://eltribuno.com/salta"
+    },
+    {
+      "id": 7,
+      "image": "/assets/img/logos/logorock.webp",
+      "url": "https://fmrockandpop.com/"
+    },
+    {
+      "id": 8,
+      "image": "/assets/img/logos/logo-porta.png",
+      "url": "/"
+    },
+    {
+      "id": 9,
+      "image": "/assets/img/logos/logo-vaca.png",
+      "url": "https://vaca-expo-7trnmunu5-imaginebignet-gmailcom.vercel.app/"
+    },
+    {
+      "id": 9,
+      "image": "/assets/img/logos/logo-creation.png",
+      "url": "https://creationgroup.co/"
+    },
+    {
+      "id": 10,
+      "image": "/assets/img/logos/logo-cipoleti.png",
+      "url": "https://camaraicc.com/inicio"
+    },
+    {
+      "id": 11,
+      "image": "/assets/img/logos/logo-uvd2.png",
+      "url": "/"
+    }
+  ]
