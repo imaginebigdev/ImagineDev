@@ -1,40 +1,71 @@
 {
   "features": [
-    { "icon": "fas fa-tag", "title": "Filtering notes using matched keywords" },
-    { "icon": "fas fa-sync", "title": "Automatically sync in real times" },
+    { "id": "1","icon": "fas fa-database","title1":" Backend:", "title": "Build your solutions on strong, robust, and scalable architectures using programming languages such as Javascript, Kotlin, Node.js, Python." },
+    { "id": "2","icon": "fas fa-cogs", "title1":"Infraestructure:", "title": "Scale faster, develop more efficiently, and focus on your core business with cloud computing such as AWS, Google Cloud and Firebase." },
+    { "id": "3",
+      "icon": "fas fa-server", "title1":"Storage:",
+      "title": "Perform migrations quickly, easily access your data. Using MySQL, Postgres; MongoDB, DynamoDB, Firestore, ElasticSearch and Redis."
+    },
+    {"id": "4",
+      "icon": "fas fa-cloud","title1":"Dev Ops:",
+      "title": "Make end-to-end ownership of applications the norm and reduce time to market using tools such as Docker, Kubernetes, Jenkins, Github, Bitbucket, JIRA and Slack."
+    },
     {
-      "icon": "fas fa-text-width",
-      "title": "Complete note editor with rich text options"
+      "id": "5",
+      "icon": "fas fa-code", "title1":"Frontend:",
+      "title": "Get a pixel perfect, responsive design guaranteeing a pleasant user experience using HTML, CSS/SASS, Material Design, JavaScript, React, Redux, Angular, RxJs."
+    },
+    { "id": "6",
+      "icon": "fas fa-mobile","title1":"Mobile:",
+      "title": "Create amazing cross-platform apps, with hybrid and native technologies such as Objective C and Swift for iOS, Java and Kotlin for Android, Flutter and React Native for both platforms."
     }
+    
+    
   ],
   "accordions": [
     {
       "id": 1,
-      "title": "Create and Save your notes with multi-media",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "Organization of information.",
+      "icon": "fas fa-book"
     },
     {
       "id": 2,
-      "title": "Web Clipper Extension",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "Activation of the brand's social networks.",
+      "icon": "fas fa-calendar-check"
     },
     {
       "id": 3,
-      "title": "Protect your note with lock",
-      "content": "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
+      "title": "Creation of the traffic strategy to be achieved.",
+      "icon": "fas fa-file"
+    },{
+      "id": 4,
+      "title": "Social Hub 2.0 with live Twitterers.",
+      "icon": "fab fa-twitter"
+    },{
+      "id": 5,
+      "title": "Traffic on Twitter, Youtube, TikTok, Instagram, Facebook",
+      "icon": "fas fa-rss"
+    },{
+      "id": 6,
+      "title": "Posting speed to create a trending topic.",
+      "icon": "fas fa-hashtag"
     }
   ],
   "thirdFeatures": [
-    { "active": false, "title": "Filtering notes using matched keywords" },
-    { "active": true, "title": "8 Beautiful themes for you select" },
-    { "active": false, "title": "Save energy for your device" },
-    { "active": false, "title": "Easy to switch between light and dark mode" }
+    { "active": true, "title": "Editorial: we elaborate the wording of each word and paragraph." },
+    { "active": true, "title": "Content Social Manager: we elaborate the strategy of action." },
+    { "active": true, "title": "Art: DaVinci style, we fly to create art for your brand." },
+    { "active": true, "title": "Design: we design in all formats for social platforms" },
+    { "active": true, "title": "Video Editing: we create content for all social networks" },
+    { "active": true, "title": "Posting: we create the brand's social plan and execute the actions" }
   ],
   "integrations": [
     "/assets/img/about/1.png",
     "/assets/img/about/5.png",
     "/assets/img/about/4.png",
     "/assets/img/about/3.png",
-    "/assets/img/about/2.png"
+    "/assets/img/about/2.png",
+    "/assets/img/about/6.png",
+    "/assets/img/about/7.png"
   ]
 }

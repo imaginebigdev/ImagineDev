@@ -5,13 +5,13 @@ import chooseUsData from "@data/IT/chooseus.json";
 const ChooseUs = () => {
   return (
     <section
-      className="choose-us style-2 border-top bg-darkBlue brd-light section-padding"
+      className="choose-us style-2 border-top bg-blue2 brd-light section-padding"
       data-scroll-index="4"
     >
       <div className="container">
         <div className="section-head mb-30 text-center">
           <h2 className="text-white ltspc-20 text-uppercase fs-1 lh-1 mb-70">
-            why choose us
+            Our values
           </h2>
         </div>
         <div className="row align-items-center">
@@ -54,11 +54,6 @@ const ChooseUs = () => {
                   </li>
                 ))}
               </ul>
-              <Link href="/page-contact-5">
-                <a className="btn sm-butn border text-white radius-9 mt-70 hover-darkBlue">
-                  <span>Request A Consultation</span>
-                </a>
-              </Link>
             </div>
           </div>
         </div>

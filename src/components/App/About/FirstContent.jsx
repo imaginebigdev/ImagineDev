@@ -33,18 +33,48 @@ const FirstContent = ({ features, rtl }) => {
                   </>
                 )}
               </p>
-              <ul>
-                {features.map((item, index) => (
-                  <li className="d-flex align-items-center mb-3" key={index}>
-                    <small className="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
-                      <i className={item.icon}></i>
-                    </small>
-                    <h6 className="fw-bold">{item.title}</h6>
-                  </li>
-                ))}
-              </ul>
+              <div className="faq style-3 style-4">
+                <div className="accordion" id="accordionExample">
+                  {features.map((features, index) => (
+                    <div className="accordion-item" key={index}>
+                      <h2
+                        className="accordion-header"
+                        id={`heading${features.id}`}
+                      >
+                        {" "}
+                        <button
+                          className={`accordion-button ${
+                            index !== 0 ? "collapsed" : ""
+                          }`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target={`#collapse${features.id}`}
+                          aria-expanded="true"
+                          aria-controls={`collapse${features.id}`}
+                        >
+                          <small className="icon-30 bg-gray rounded-circle color-blue4 d-inline-flex align-items-center justify-content-center me-3">
+                            <i className={features.icon}></i>
+                          </small>{" "}
+                          {features.title1}
+                        </button>
+                      </h2>
+                      <div
+                        id={`collapse${features.id}`}
+                        className={`accordion-collapse collapse ${
+                          index === 0 ? "show" : ""
+                        }`}
+                        aria-labelledby={`heading${features.id}`}
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className="accordion-body">{features.title}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <a
-                href="page-contact-5.html"
+                href="/contact"
                 className="btn rounded-pill bg-blue4 fw-bold text-white mt-50"
               >
                 <small> Contact Us </small>
