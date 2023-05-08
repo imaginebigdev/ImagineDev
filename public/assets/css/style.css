@@ -529,6 +529,7 @@ body.style-6 {
 .row:not(.gx-0):not(.gx-1):not(.gx-2):not(.gx-3):not(.gx-4):not(.gx-5) > * {
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 30px;
 }
 
 h1,
