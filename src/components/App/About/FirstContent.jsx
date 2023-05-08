@@ -74,11 +74,11 @@ const FirstContent = ({ features, rtl }) => {
                   ))}
                 </div>
               </div>
-              <Link to="/contact">
+              {/* <Link to="/contact">
                 <a className="btn rounded-pill bg-blue4 fw-bold text-white mt-50">
                   <small> Contact Us </small>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
