@@ -28,12 +28,12 @@
     "question": "How to develop my first APP?",
     "answer": {
       "part1": "Through our first meeting via Meet, we define aspects to carry out the project and then we implement a plan in 6 steps:",
-      "part3": ".2  We define the purpose of the application",
-      "part4":".3  Design the user interface",
-      "part5":".4  We choose the platform: Android, iOS or web",
-      "part6": ".5  We develop",
-      "part7":".6  We test the application, in test mode.",
-      "part8":".7  We launch the application, positioning it in the market."
+      "part3": ".1 We define the purpose of the application",
+      "part4":".2 Design the user interface",
+      "part5":".3 We choose the platform: Android, iOS or web",
+      "part6": ".4  We develop",
+      "part7":".5 We test the application, in test mode.",
+      "part8":".6 We launch the application, positioning it in the market."
 
     }
   },
