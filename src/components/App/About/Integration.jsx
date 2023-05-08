@@ -3,7 +3,7 @@ const Integration = ({ integrations, rtl }) => {
     <div className="integration pt-60" data-scroll-index="3">
       <div className="section-head text-center style-4">
         <small className="title_small">
-          {rtl ? "دفعة لمرة واحدة" : "One-Time Payment"}
+          {rtl ? "دفعة لمرة واحدة" : "Our Stack"}
         </small>
         <h2 className="mb-20">
           {rtl ? "متوافق مع" : "We use Stack"}{" "}
