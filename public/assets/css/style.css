@@ -73,8 +73,8 @@ TABLE OF CONTENTS:-
   --color-main: #0066ff;
   --color-primary: #0066ff;
   --color-secondary: #02b5ff;
-  --color-blue2: #4a00e1;
-  --color-blue4: #5842bc;
+  --color-blue2: #61218c;
+  --color-blue4: #9913b6;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
@@ -2225,7 +2225,7 @@ small.text {
   top: 4px;
   width: 9px;
   height: 9px;
-  background-color: #6c41ff;
+  background-color: #9913b6;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -2237,7 +2237,7 @@ small.text {
   top: 4px;
   width: 9px;
   height: 9px;
-  background-color: #6c41ff;
+  background-color: #9913b6;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
