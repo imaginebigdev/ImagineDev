@@ -9,7 +9,7 @@ const Community = ({ rtl }) => {
       <div className="container">
         <div className="section-head text-center style-4">
           <small className="title_small">
-            {rtl ? "مجتمع نوتيرو" : "Notero Community"}
+            {rtl ? "مجتمع نوتيرو" : "Imagine Big Community"}
           </small>
           <h2 className="mb-30">
             {rtl ? "انضم إلى" : "Join Into"}{" "}

@@ -30,21 +30,20 @@ const Footer = ({ noWave, rtl }) => {
       <div className="container">
         <div className="section-head text-center style-4">
           <h2 className="mb-10">
-            {rtl ? "جاهز" : "Ready To"}{" "}
-            <span>{rtl ? "للتنزيل" : "Download"}</span>{" "}
+            {rtl ? "جاهز" : "let's talk about your"}{" "}
+            <span>{rtl ? "للتنزيل" : "PROJECT"}</span>{" "}
           </h2>
           <p>
             {rtl
               ? "اكتشف مساحاتك المفضلة الجديدة ، من ساو باولو إلى سيول. قم بالتنزيل من App Store أو Google Play."
-              : "Discover your new favorite spaces, from Sao Paulo to Seoul. Download from App Store or Google Play."}
+              : "the growth of your brand is one click away."}
           </p>
           <div className="d-flex align-items-center justify-content-center mt-50">
             <Link href="/contact">
               <a className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
                 <small>
                   {" "}
-                  <i className="fab fa-apple me-2 pe-2 border-end"></i>{" "}
-                  {rtl ? "تنزيل من متجر التطبيقات" : "Download On App Store"}
+                  {rtl ? "تنزيل من متجر التطبيقات" : "CONTACTANOS"}
                 </small>
               </a>
             </Link>

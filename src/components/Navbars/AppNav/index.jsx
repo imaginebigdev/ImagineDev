@@ -29,7 +29,7 @@ const Navbar = ({ navbarRef }) => {
     >
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/assets/img/logo_lgr.png" alt="" />
+          <img src="/assets/img/logo-ib.png" alt="" />
         </a>
         <button
           className="navbar-toggler"
