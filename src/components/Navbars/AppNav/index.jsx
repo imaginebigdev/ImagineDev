@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = ({ navbarRef }) => {
+const Navbar = ({ navbarRef, rtl }) => {
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains("dropdown-toggle")
       ? event.target
