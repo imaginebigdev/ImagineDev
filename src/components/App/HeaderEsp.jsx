@@ -7,7 +7,7 @@ const HeaderEsp = () => {
             <div className="col-lg-5">
               <div className="info">
                 <h1 className="h1">
-                  Nostros proveemos <span>Soluciones</span>
+                  Nosotros proveemos <span>Soluciones</span>
                 </h1>
                 <p className="p">
                   para ayudar a hacer crecer su negocio a lo grande Creamos
