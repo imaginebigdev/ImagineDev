@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HomeAppLanding from "./home-app-landing";
+import HomeAppLanding from "./en";
 
 const LandingPreview = () => {
   useEffect(() => {

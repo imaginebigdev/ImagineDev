@@ -1,0 +1,48 @@
+[
+    {
+      "image": "/assets/img/icons/1.png",
+      "title": "Excelencia",
+      "desc": {
+        "desc1": "Ofrecemos productos y servicios de alta calidad,",
+        "desc2": " a través de la mejora continua y la innovación."
+      }
+    },
+    {
+      "image": "/assets/img/icons/2.png",
+      "title": "Orientación al cliente",
+      "desc": {
+        "desc1": "Trabajamos con un enfoque centrado en el cliente y ",
+        "desc2": "aseguramos que se satisfagan sus necesidades."
+      }
+    },
+    {
+      "image": "/assets/img/icons/3.png",
+      "title": "Trabajo en equipo",
+      "desc": {
+        "desc1": "Optamos por un proceso colaborativo y complejo,",
+        "desc2": " con la cooperación de todos los miembros de la empresa."
+      }
+    },
+    {
+      "image": "/assets/img/icons/4.png",
+      "title": "Transparencia",
+      "desc": {
+        "desc1": "Somos honestos y éticos en todas las interacciones y transacciones.",
+        "desc2": ""
+      }
+    },
+    {
+      "image": "/assets/img/icons/5.png",
+      "title": "Innovación",
+      "desc": {
+        "desc1": "Nos gusta innovar, estando al tanto de las últimas tendencias tecnológicas,",
+        "desc2": " para poder ofrecer soluciones tecnológicas avanzadas a nuestros clientes."
+      }
+    },
+    {
+      "image": "/assets/img/icons/6.png",
+      "title": "Responsabilidad social",
+      "desc": " Somos conscientes del impacto en la sociedad y en el medio ambiente, nos gusta actuar de manera responsable y ética en todos los aspectos del negocio."
+    }
+  ]
+  

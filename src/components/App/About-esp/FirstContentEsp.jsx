@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const FirstContent = ({ features, rtl }) => {
+const FirstContentEsp = ({ desarrollo }) => {
   return (
     <div className="content frs-content" id="about" data-scroll-index="2">
       <div className="container">
@@ -14,29 +14,23 @@ const FirstContent = ({ features, rtl }) => {
             <div className="info">
               <div className="section-head style-4">
                 <small className="title_small">
-                  {rtl
-                    ? "Imagine Big - Desarrollo Web"
-                    : "Imagine Big - Web Development"}
+                  Imagine Big - Desarrollo Web
                 </small>
                 <h2 className="mb-30">
-                  {rtl ? "Desarrollo ágil" : "Agile development"}{" "}
-                  <span> {rtl ? "plataforma" : " platforms"} </span>{" "}
+                  <span> Plataforma </span> de Desarrollo ágil
                 </h2>
               </div>
               <p className="text mb-40">
-                {rtl && ""}
-                {!rtl && (
-                  <>
-                    We adapt different technologies for B2C or B2B applications
-                    and developments that manage clients in high demand. Our
-                    control panel in our developments allows a friendly use for
-                    our clients.
-                  </>
-                )}
+                <>
+                  Adaptamos diferentes tecnologías para aplicaciones y
+                  desarrollos B2C o B2B que gestionan clientes de alta demanda.
+                  Nuestro panel de control en nuestros desarrollos permite un
+                  uso amigable para nuestros clientes.
+                </>
               </p>
               <div className="faq style-3 style-4">
                 <div className="accordion" id="accordionExample">
-                  {features.map((features, index) => (
+                  {desarrollo.map((features, index) => (
                     <div className="accordion-item" key={index}>
                       <h2
                         className="accordion-header"
@@ -96,4 +90,4 @@ const FirstContent = ({ features, rtl }) => {
   );
 };
 
-export default FirstContent;
+export default FirstContentEsp;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = ({ navbarRef }) => {
+const NavbarEs = ({ navbarRef }) => {
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains("dropdown-toggle")
       ? event.target
@@ -45,19 +45,19 @@ const Navbar = ({ navbarRef }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
             <li className="nav-item dropdown">
-              <Link href="/en">
-                <a className="nav-link">Home</a>
+              <Link href="/es">
+                <a className="nav-link">Inicio</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about">
-                <a className="nav-link">About</a>
+              <Link href="/nosotros">
+                <a className="nav-link">Nosotros</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href="/contact">
-                <a className="nav-link">Contact</a>
+              <Link href="/contacto">
+                <a className="nav-link">Contacto</a>
               </Link>
             </li>
           </ul>
@@ -75,13 +75,13 @@ const Navbar = ({ navbarRef }) => {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <img src="/assets/img/lang.png" alt="" className="me-2" />
-              <small>English</small>
+              <img src="/assets/img/langes.png" alt="" className="me-2" />
+              <small>Español</small>
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a className="dropdown-item" href="/es">
-                  Spanish
+                <a className="dropdown-item" href="/en">
+                  Inglés
                 </a>
               </li>
             </ul>
@@ -92,4 +92,4 @@ const Navbar = ({ navbarRef }) => {
   );
 };
 
-export default Navbar;
+export default NavbarEs;

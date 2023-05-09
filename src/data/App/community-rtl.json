@@ -1,17 +1,26 @@
 [
   {
-    "icon": "fab fa-github",
-    "title": "جيت هوب",
-    "description": "المصدر المفتوح ورمز الاتصال"
+    "icon": "fab fa-instagram",
+    "title": "Instagram",
+    "description": "Nuestro equipo y clientes",
+    "link": "https://www.instagram.com/imaginebigdev/"
   },
   {
     "icon": "fab fa-twitter",
-    "title": "تويتر",
-    "description": "آخر الأخبار والتحديثات"
+    "title": "Twitter",
+    "description": "Últimas noticias y actualizaciones",
+    "link": "https://twitter.com/imaginebigdev"
   },
   {
-    "icon": "fab fa-telegram",
-    "title": "تليجرام",
-    "description": "قناه للمجتمع"
+    "icon": "fab fa-youtube",
+    "title": "Youtube",
+    "description": "Canal para la comunidad",
+    "link": "https://www.youtube.com/@imaginebignet"
+  },
+  {
+    "icon": "fab fa-linkedin",
+    "title": "Linkedin",
+    "description": "Comunidad de Negocios",
+    "link": "https://www.linkedin.com/company/imaginebig/"
   }
 ]

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Footer = ({ noWave }) => {
+const FooterEsp = ({ noWave }) => {
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains("dropdown-toggle")
       ? event.target
@@ -30,13 +30,13 @@ const Footer = ({ noWave }) => {
       <div className="container">
         <div className="section-head text-center style-4">
           <h2 className="mb-10">
-            let's talk about your <span>PROJECT</span>{" "}
+            Hablemos sobre tu próximo <span>PROYECTO</span>{" "}
           </h2>
-          <p>The growth of your brand is one click away.</p>
+          <p>El crecimiento de tu marca está a un clic de distancia</p>
           <div className="d-flex align-items-center justify-content-center mt-50">
-            <Link href="/contact">
+            <Link href="/contacto">
               <a className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
-                <small> CONTACT US</small>
+                <small> CONTACTANOS</small>
               </a>
             </Link>
           </div>
@@ -52,17 +52,17 @@ const Footer = ({ noWave }) => {
               <ul className="links">
                 <li>
                   <Link href="/home-app-landing">
-                    <a className="active">Home</a>
+                    <a className="active">Inicio</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
-                    <a>About</a>
+                  <Link href="/nosotros">
+                    <a>Nosotros</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    <a>Contact</a>
+                  <Link href="/contacto">
+                    <a>Contacto</a>
                   </Link>
                 </li>
               </ul>
@@ -80,16 +80,16 @@ const Footer = ({ noWave }) => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <img src="/assets/img/lang.png" alt="" className="me-2" />
-                  <small>English</small>
+                  <img src="/assets/img/langes.png" alt="" className="me-2" />
+                  <small>Español</small>
                 </button>
                 <ul
                   className="dropdown-menu"
                   aria-labelledby="dropdownMenuButton1"
                 >
                   <li>
-                    <a className="dropdown-item" href="/es">
-                      Spanish
+                    <a className="dropdown-item" href="/en">
+                      Inglés
                     </a>
                   </li>
                 </ul>
@@ -100,8 +100,8 @@ const Footer = ({ noWave }) => {
         <div className="copywrite text-center">
           <small className="small">
             © 2023 Copyrights by{" "}
-            <a className="fw-bold text-decoration-underline">Imagine Big</a> All
-            Rights Reserved. Designed by{" "}
+            <a className="fw-bold text-decoration-underline">Imagine Big</a>{" "}
+            Todos los Derechos Reservados. Disñada por{" "}
             <a href="/" className="fw-bold text-decoration-underline">
               Imagine Big
             </a>
@@ -119,4 +119,4 @@ const Footer = ({ noWave }) => {
   );
 };
 
-export default Footer;
+export default FooterEsp;

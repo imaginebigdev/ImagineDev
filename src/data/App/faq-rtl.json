@@ -1,47 +1,48 @@
 [
   {
     "id": 1,
-    "question": "ما هي الفائدة التي حصلت عليها عند اختيار الخطة الأساسية؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
+    "question": "¿Cómo dar un impulso para que mi proyecto despegue?",
+    "answer": {
+      "part1": "Tenemos diferentes soluciones de software factory y desarrollo en marketing digital, te presentamos un plan de implementacion y en base a la expectativa,",
+      "part2": " desplegamos el calendario de las tareas a realizar a través de Milestones de trabajo y flujo de tareas, siempre en pleno contacto semanal con nuestros clientes."
+    }
   },
   {
     "id": 2,
-    "question": "كيف يمكنني تنظيم ملاحظاتي؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
+    "question": "¿Cómo puedo acelerar mi proyecto de ventas?",
+    "answer": {
+      "part1": "Tenemos AceleraClick! un programa de aceleración en Comunicacion DIgital y marketing Online para crear oportunidades de venta,",
+      "part2": "  posicionar producto, mejorar el branding de la marca, y crear campañas con enbudos publicitarios de venta en Redes Sociales como tambien en GoogleAds."
+    }
   },
   {
     "id": 3,
-    "question": "كم من الوقت لمشروع قياسي",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
+    "question": "¿Cómo hacer notorio mi contenido?",
+    "answer": {
+      "part1": "Tenemos una solución de viralización de contenido. Trending, posiciona el producto a través de un proceso informático con flujo de información.",
+      "part2": " Usando diferentes redes sociales con un trafico orientado y planificado, generamos posicionamiento online y visibilidad en tiempo real."
+    }
   },
   {
     "id": 4,
-    "question": "ماذا عن اتفاقية أمان البيانات واتفاقية عدم الإفشاء",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
+    "question": "¿Cómo desarrollar mi primer APP?",
+    "answer": {
+      "part1": "A través de nuestra primer reunión via Meet, definimos aspectos para poder llevar adelante, el proyecto y luego implementamos un plan en 6 pasos:",
+      "part3": ".1 Definimos el propósito de la aplicación",
+      "part4":".2 Diseñamos la interfaz de usuario",
+      "part5":".3 Elegímos la plataforma: Android, iOS o web.",
+      "part6": ".4 Desarrollamos",
+      "part7":".5 Probamos la aplicación, en modo test.",
+      "part8":".6 Lanzamos la aplicación posicionándola en el mercado."
+
+    }
   },
   {
     "id": 5,
-    "question": "كيف تقوم نيترو بتخزين بياناتي؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
-  },
-  {
-    "id": 6,
-    "question": "لا يدعم نيترو تخزين البيانات على iCloud؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
-  },
-  {
-    "id": 7,
-    "question": "كيف يمكنني تغيير البريد الإلكتروني أو كلمة المرور الخاصة بي؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
-  },
-  {
-    "id": 8,
-    "question": "هل يمكن استخدام ترخيص Premium الخاص بي لجميع الأجهزة؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
-  },
-  {
-    "id": 9,
-    "question": "هل يمكنني قفل تطبيق ملاحظتي؟",
-    "answer": "من خلال التعاون مع العملاء في مناقشة الاحتياجات والطلب ، نحن قادرون على تحقيق التفاهم المتبادل ، واكتساب ثقة العملاء لتقديم المشورة المناسبة"
+    "question": "¿En cuanto tiempo puedo ver resultados de crecimiento como marca?",
+    "answer": {
+      "part1": "Nuestra recomendación siempre es un mínimo de 3 meses para crear un ecosistema de información y programación digital para que el proyecto delineado cobre vida y se vean resultados en la marca.",
+      "part2": " Nuestro convenio de servicios incluye un plan de acción con un convenio a 6 meses, que se puede renovar."
+    }
   }
 ]
