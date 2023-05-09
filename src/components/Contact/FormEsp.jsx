@@ -10,7 +10,7 @@ const FormEsp = ({ style = "4", rtl }) => {
     email: "",
     phone: "",
     website: "",
-    option: "",
+    option: "Cómo te podemos ayudar?",
     message: "",
   });
   const [errors, setErrors] = useState({
@@ -72,7 +72,7 @@ const FormEsp = ({ style = "4", rtl }) => {
         email: "",
         phone: "",
         website: "",
-        option: "",
+        option: "Cómo te podemos ayudar?",
         message: "",
       });
       return;
@@ -178,19 +178,15 @@ const FormEsp = ({ style = "4", rtl }) => {
                     <div className="form-group mb-20">
                       <select
                         className="form-select"
-                        defaultValue={"Cómo te podemos ayudar?"}
                         name="option"
                         value={formData.option}
                         onChange={handleFormChange}
                       >
-                        <option selected hidden>
-                          Cómo te podemos ayudar?
-                        </option>
-                        <option value="Web development">Desarrollo Web</option>
-                        <option value="Digital Marketing">
+                        <option value="Desarrollo Web">Desarrollo Web</option>
+                        <option value="Marketing Digital">
                           Marketing Digital
                         </option>
-                        <option value="Viralization, Trending Solution">
+                        <option value="Viralización, Solución Trending">
                           Viralización, Solución Trending
                         </option>
                       </select>

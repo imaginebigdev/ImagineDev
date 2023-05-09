@@ -46,7 +46,7 @@ const Footer = ({ noWave }) => {
           <div className="row align-items-center">
             <div className="col-lg-2">
               <div className="logo">
-                <img src="/assets/img/logo_lgr.png" alt="" />
+                <img src="/assets/img/logo-ib.png" alt="" />
               </div>
             </div>
             <div className="col-lg-8">

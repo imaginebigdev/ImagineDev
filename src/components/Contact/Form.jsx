@@ -10,7 +10,7 @@ const Form = ({ style = "4", rtl }) => {
     email: "",
     phone: "",
     website: "",
-    option: "",
+    option: "How can we help you?",
     message: "",
   });
   const [errors, setErrors] = useState({
@@ -65,9 +65,7 @@ const Form = ({ style = "4", rtl }) => {
           "-M-JxKwbrJmx9jr-w"
         )
         .then((res) => {
-          alert(
-            rtl ? "Mensaje enviado correctamente" : "Message sent successfully"
-          );
+          alert("Message sent successfully");
         })
         .catch((res) => {
           console.error(res);
@@ -77,14 +75,12 @@ const Form = ({ style = "4", rtl }) => {
         email: "",
         phone: "",
         website: "",
-        option: "",
+        option: "How can we help you?",
         message: "",
       });
       return;
     }
-    alert(
-      rtl ? "Campos faltantes o incorrectos" : "Missing or incorrect fields"
-    );
+    alert("Missing or incorrect fields");
   };
 
   return (
@@ -97,14 +93,10 @@ const Form = ({ style = "4", rtl }) => {
         <>
           <div className="section-head text-center mb-100 style-5">
             <h2 className="mb-20">
-              {rtl ? "يسعدنا" : "Get In"}{" "}
-              <span>{rtl ? "تواصلك" : "Touch"}</span> {rtl && "معنا"}
+              Get In"
+              <span>Touch</span>
             </h2>
-            <p>
-              {rtl
-                ? "سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة"
-                : "We will contact again after receive your request in 24h"}
-            </p>
+            <p>We will contact again after receive your request in 24h</p>
           </div>
           <div className="text-center mb-100">
             <h2 className="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">
@@ -130,9 +122,7 @@ const Form = ({ style = "4", rtl }) => {
                 onSubmit={handleFormSubmit}
               >
                 <p className="text-center text-danger fs-12px mb-30">
-                  {rtl
-                    ? "الحقل اللذى يحتوى على هذة العلامة اجبارى *"
-                    : "The field is required mark as *"}
+                  "The field is required mark as *
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
@@ -154,9 +144,7 @@ const Form = ({ style = "4", rtl }) => {
                         name="email"
                         value={formData.email}
                         className="form-control"
-                        placeholder={
-                          rtl ? "البريد الالكترونى *" : "Email Address *"
-                        }
+                        placeholder="Email Address *"
                         onChange={handleFormChange}
                       />
                       {errors.email ? <div>{errors.email}</div> : null}
@@ -169,9 +157,7 @@ const Form = ({ style = "4", rtl }) => {
                         name="phone"
                         value={formData.phone}
                         className="form-control"
-                        placeholder={
-                          rtl ? "رقم الهاتف (اختياري)" : "Phone Number (option)"
-                        }
+                        placeholder="Phone Number (option)"
                         onChange={handleFormChange}
                       />
                       {errors.phone ? <div>{errors.phone}</div> : null}
@@ -184,9 +170,7 @@ const Form = ({ style = "4", rtl }) => {
                         name="website"
                         value={formData.website}
                         className="form-control"
-                        placeholder={
-                          rtl ? "رابط موقعك (اختيارى)" : "Your Website (option)"
-                        }
+                        placeholder="Your Website (option)"
                         onChange={handleFormChange}
                       />
                     </div>
@@ -195,38 +179,16 @@ const Form = ({ style = "4", rtl }) => {
                     <div className="form-group mb-20">
                       <select
                         className="form-select"
-                        defaultValue={
-                          rtl ? "كيف يمكننا مساعدتك ؟" : "How can we help you?"
-                        }
                         name="option"
                         value={formData.option}
                         onChange={handleFormChange}
                       >
-                        <option selected hidden>
-                          {rtl
-                            ? "كيف يمكننا مساعدتك ؟"
-                            : "How can we help you?"}
+                        <option value="Web development">Web development</option>
+                        <option value="Digital Marketing">
+                          Digital Marketing
                         </option>
-                        <option
-                          value={rtl ? "الاختيار الاول" : "Web development"}
-                        >
-                          {rtl ? "الاختيار الاول" : "Web development"}
-                        </option>
-                        <option
-                          value={rtl ? "الاختيار الاول" : "Digital Marketing"}
-                        >
-                          {rtl ? "الاختيار الاول" : "Digital Marketing"}
-                        </option>
-                        <option
-                          value={
-                            rtl
-                              ? "الاختيار الثاني"
-                              : "Viralization, Trending Solution"
-                          }
-                        >
-                          {rtl
-                            ? "الاختيار الثاني"
-                            : "Viralization, Trending Solution"}
+                        <option value="Viralization, Trending Solution">
+                          Viralization, Trending Solution
                         </option>
                       </select>
                     </div>
@@ -238,9 +200,7 @@ const Form = ({ style = "4", rtl }) => {
                         name="message"
                         value={formData.message}
                         className="form-control"
-                        placeholder={
-                          rtl ? "كيف يمكننا مساعدتك ؟" : "How can we help you?"
-                        }
+                        placeholder="How can we help you?"
                         onChange={handleFormChange}
                       ></textarea>
                     </div>
@@ -249,7 +209,7 @@ const Form = ({ style = "4", rtl }) => {
                   <div className="col-lg-12 text-center">
                     <input
                       type="submit"
-                      value={rtl ? "ارسل طلبك" : "Send Your Request"}
+                      value="Send Your Request"
                       className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light"
                     />
                   </div>
