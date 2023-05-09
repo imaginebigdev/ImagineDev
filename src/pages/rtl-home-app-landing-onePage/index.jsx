@@ -1,22 +1,22 @@
-import { useEffect, useRef } from 'react';
-import Head from 'next/head';
+import { useEffect, useRef } from "react";
+import Head from "next/head";
 //= Scripts
 import navbarScrollEffect from "@common/navbarScrollEffect";
 //= Layout
-import MainLayout from '@layouts/Main';
+import MainLayout from "@layouts/Main";
 //= Components
-import TopNav from '@components/Navbars/TopNav';
-import Navbar from '@components/Navbars/AppNav/OnePageNav';
-import Header from '@components/App/Header';
-import Clients from '@components/App/Clients';
-import Features from '@components/App/Features';
-import About from '@components/App/About';
-import Screenshots from '@components/App/Screenshots';
-import Testimonials from '@components/App/Testimonials';
-import Pricing from '@components/App/Pricing';
-import FAQ from '@components/App/FAQ';
-import Community from '@components/App/Community';
-import Footer from '@components/App/Footer';
+import TopNav from "@components/Navbars/TopNav";
+import Navbar from "@components/Navbars/AppNav/OnePageNav";
+import Header from "@components/App/Header";
+import Clients from "@components/App/Clients";
+import Features from "@components/App/Features";
+import About from "@components/App/About";
+import Screenshots from "@components/App/Screenshots";
+import Testimonials from "@components/App/Testimonials";
+import Pricing from "@components/App/Pricing";
+import FAQ from "@components/App/FAQ";
+import Community from "@components/App/Community";
+import Footer from "@components/App/Footer";
 
 const HomeAppLandingOnePage = () => {
   const navbarRef = useRef(null);
@@ -40,7 +40,7 @@ const HomeAppLandingOnePage = () => {
           <Features rtl />
           <About rtl />
           <Screenshots />
-          <Testimonials rtl/>
+          <Testimonials rtl />
           <Pricing rtl />
           <FAQ rtl />
           <Community rtl />
@@ -48,7 +48,7 @@ const HomeAppLandingOnePage = () => {
         <Footer rtl />
       </MainLayout>
     </>
-  )
-}
+  );
+};
 
 export default HomeAppLandingOnePage;
