@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About = ({ rtl }) => {
   return (
     <section className="about style-9 section-padding">
       <div className="container">
