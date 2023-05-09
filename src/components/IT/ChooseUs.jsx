@@ -2,7 +2,7 @@ import Link from "next/link";
 import Numbers from "./Numbers";
 import chooseUsData from "@data/IT/chooseus.json";
 
-const ChooseUs = () => {
+const ChooseUs = ({ rtl }) => {
   return (
     <section
       className="choose-us style-2 border-top bg-blue2 brd-light section-padding"

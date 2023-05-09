@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = ({ navbarRef }) => {
+const Navbar = ({ navbarRef, rtl }) => {
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains("dropdown-toggle")
       ? event.target
@@ -46,18 +46,18 @@ const Navbar = ({ navbarRef }) => {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
             <li className="nav-item dropdown">
               <Link href="/en">
-                <a className="nav-link">Home</a>
+                <span className="nav-link">Home</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/about">
-                <a className="nav-link">About</a>
+                <span className="nav-link">About</span>
               </Link>
             </li>
 
             <li className="nav-item">
               <Link href="/contact">
-                <a className="nav-link">Contact</a>
+                <span className="nav-link">Contact</span>
               </Link>
             </li>
           </ul>
@@ -80,9 +80,11 @@ const Navbar = ({ navbarRef }) => {
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a className="dropdown-item" href="/es">
-                  Spanish
-                </a>
+                <Link href="/es">
+                  <span className="dropdown-item" style={{ cursor: "pointer" }}>
+                    Spanish
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>

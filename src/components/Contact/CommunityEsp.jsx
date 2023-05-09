@@ -1,15 +1,19 @@
 import communityData from "@data/Contact/community.json";
 
-const Community = ({ rtl }) => {
+const CommunityEs = () => {
   return (
     <section className="community section-padding style-5">
       <div className="container">
         <div className="section-head text-center style-4 mb-40">
-          <small className="title_small">Contact us</small>
+          <small className="title_small">Contactanos</small>
           <h2 className="mb-20">
-            Get In <span>Touch</span>{" "}
+            Ponerse en <span>Contacto</span>{" "}
           </h2>
-          <p>We will contact again after receive your request in 24h</p>
+          <p>
+            {" "}
+            Nos pondremos en contacto de nuevo después de recibir su solicitud
+            dentro de las próximas 24hs
+          </p>
         </div>
         <div className="content rounded-pill">
           {communityData.map((card, i) => (
@@ -28,4 +32,4 @@ const Community = ({ rtl }) => {
   );
 };
 
-export default Community;
+export default CommunityEs;

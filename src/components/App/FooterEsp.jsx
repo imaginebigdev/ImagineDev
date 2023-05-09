@@ -35,9 +35,10 @@ const FooterEsp = ({ noWave }) => {
           <p>El crecimiento de tu marca está a un clic de distancia</p>
           <div className="d-flex align-items-center justify-content-center mt-50">
             <Link href="/contacto">
-              <a className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
-                <small> CONTACTANOS</small>
-              </a>
+              <small className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
+                {" "}
+                CONTACTANOS
+              </small>
             </Link>
           </div>
         </div>
@@ -51,19 +52,15 @@ const FooterEsp = ({ noWave }) => {
             <div className="col-lg-8">
               <ul className="links">
                 <li>
-                  <Link href="/home-app-landing">
-                    <a className="active">Inicio</a>
+                  <Link className="active" href="/es">
+                    Inicio
                   </Link>
                 </li>
                 <li>
-                  <Link href="/nosotros">
-                    <a>Nosotros</a>
-                  </Link>
+                  <Link href="/nosotros">Nosotros</Link>
                 </li>
                 <li>
-                  <Link href="/contacto">
-                    <a>Contacto</a>
-                  </Link>
+                  <Link href="/contacto">Contacto</Link>
                 </li>
               </ul>
             </div>
@@ -88,9 +85,14 @@ const FooterEsp = ({ noWave }) => {
                   aria-labelledby="dropdownMenuButton1"
                 >
                   <li>
-                    <a className="dropdown-item" href="/en">
-                      Inglés
-                    </a>
+                    <Link href="/en">
+                      <span
+                        className="dropdown-item"
+                        style={{ cursor: "pointer" }}
+                      >
+                        Inglés
+                      </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -102,9 +104,9 @@ const FooterEsp = ({ noWave }) => {
             © 2023 Copyrights by{" "}
             <a className="fw-bold text-decoration-underline">Imagine Big</a>{" "}
             Todos los Derechos Reservados. Disñada por{" "}
-            <a href="/" className="fw-bold text-decoration-underline">
+            <Link href="/" className="fw-bold text-decoration-underline">
               Imagine Big
-            </a>
+            </Link>
           </small>
         </div>
       </div>
