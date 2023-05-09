@@ -13,15 +13,9 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="keywords"
-            content="React Nextjs Template Iteck Multi-Purpose themeforest"
-          />
-          <meta
-            name="description"
-            content="Iteck - Multi-Purpose React.js Next.js Template"
-          />
-          <meta name="author" content="" />
+          <meta name="keywords" content="Imagine Big - official website" />
+          <meta name="description" content="Imagine Big - official website" />
+          <meta name="author" content="Imagine Big" />
           <link
             rel="shortcut icon"
             href="/assets/img/ib.png"
