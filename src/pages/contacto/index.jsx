@@ -27,7 +27,7 @@ const PageContactApp = () => {
   return (
     <>
       <Head>
-        <title>Imagine Big - Contact</title>
+        <title>Imagine Big - Contacto</title>
       </Head>
 
       <MainLayout>
