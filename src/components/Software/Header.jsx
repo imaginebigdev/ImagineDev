@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 
 const Header = ({ rtl }) => {
   const [input, setInput] = useState({
-    option: "",
+    option: "Web development",
     email: "",
   });
   const [errors, setErrors] = useState({
@@ -117,30 +117,17 @@ const Header = ({ rtl }) => {
                         <select
                           className="form-select"
                           name="option"
-                          defaultValue={"Your inquiry about"}
                           value={input.option}
                           onChange={handleFormChange}
                         >
-                          <option
-                            value={rtl ? "الاختيار الاول" : "Web development"}
-                          >
-                            {rtl ? "الاختيار الاول" : "Web development"}
+                          <option value="Web development">
+                            Web development
                           </option>
-                          <option
-                            value={rtl ? "الاختيار الاول" : "Digital Marketing"}
-                          >
-                            {rtl ? "الاختيار الاول" : "Digital Marketing"}
+                          <option value="Digital Marketing">
+                            Digital Marketing
                           </option>
-                          <option
-                            value={
-                              rtl
-                                ? "الاختيار الثاني"
-                                : "Viralization, Trending Solution"
-                            }
-                          >
-                            {rtl
-                              ? "الاختيار الثاني"
-                              : "Viralization, Trending Solution"}{" "}
+                          <option value="Viralization, Trending Solution">
+                            Viralization, Trending Solution
                           </option>
                         </select>
                       </div>
