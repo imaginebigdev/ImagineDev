@@ -46,18 +46,18 @@ const NavbarEs = ({ navbarRef }) => {
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
             <li className="nav-item dropdown">
               <Link href="/es">
-                <a className="nav-link">Inicio</a>
+                <span className="nav-link">Inicio</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/nosotros">
-                <a className="nav-link">Nosotros</a>
+                <span className="nav-link">Nosotros</span>
               </Link>
             </li>
 
             <li className="nav-item">
               <Link href="/contacto">
-                <a className="nav-link">Contacto</a>
+                <span className="nav-link">Contacto</span>
               </Link>
             </li>
           </ul>
@@ -80,9 +80,11 @@ const NavbarEs = ({ navbarRef }) => {
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a className="dropdown-item" href="/en">
-                  Inglés
-                </a>
+                <Link href="/en">
+                  <span style={{ cursor: "pointer" }} className="dropdown-item">
+                    Inglés
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>

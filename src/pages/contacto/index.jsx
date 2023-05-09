@@ -11,6 +11,11 @@ import Community from "@components/Contact/Community";
 import Form from "@components/Contact/Form";
 import Map from "@components/Contact/Map";
 import Footer from "@components/App/Footer";
+import NavbarEs from "@components/Navbars/AppNav/AppNavEs";
+
+import FormEsp from "@components/Contact/FormEsp";
+import CommunityEs from "@components/Contact/CommunityEsp";
+import FooterEsp from "@components/App/FooterEsp";
 
 const PageContactApp = () => {
   const navbarRef = useRef(null);
@@ -26,13 +31,13 @@ const PageContactApp = () => {
       </Head>
 
       <MainLayout>
-        <Navbar navbarRef={navbarRef} />
+        <NavbarEs navbarRef={navbarRef} />
         <main className="contact-page style-5">
-          <Community />
-          <Form />
+          <CommunityEs />
+          <FormEsp />
           <Map />
         </main>
-        <Footer noWave />
+        <FooterEsp noWave />
       </MainLayout>
     </>
   );

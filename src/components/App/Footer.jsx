@@ -35,9 +35,10 @@ const Footer = ({ noWave }) => {
           <p>The growth of your brand is one click away.</p>
           <div className="d-flex align-items-center justify-content-center mt-50">
             <Link href="/contact">
-              <a className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
-                <small> CONTACT US</small>
-              </a>
+              <small className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
+                {" "}
+                CONTACT US
+              </small>
             </Link>
           </div>
         </div>
@@ -51,19 +52,15 @@ const Footer = ({ noWave }) => {
             <div className="col-lg-8">
               <ul className="links">
                 <li>
-                  <Link href="/home-app-landing">
-                    <a className="active">Home</a>
+                  <Link className="active" href="/en">
+                    Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
-                    <a>About</a>
-                  </Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    <a>Contact</a>
-                  </Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -88,9 +85,14 @@ const Footer = ({ noWave }) => {
                   aria-labelledby="dropdownMenuButton1"
                 >
                   <li>
-                    <a className="dropdown-item" href="/es">
-                      Spanish
-                    </a>
+                    <Link href="/es">
+                      <span
+                        className="dropdown-item"
+                        style={{ cursor: "pointer" }}
+                      >
+                        Spanish
+                      </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -102,9 +104,11 @@ const Footer = ({ noWave }) => {
             © 2023 Copyrights by{" "}
             <a className="fw-bold text-decoration-underline">Imagine Big</a> All
             Rights Reserved. Designed by{" "}
-            <a href="/" className="fw-bold text-decoration-underline">
-              Imagine Big
-            </a>
+            <Link href="/">
+              <span className="fw-bold text-decoration-underline">
+                Imagine Big
+              </span>
+            </Link>
           </small>
         </div>
       </div>
