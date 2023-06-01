@@ -60,34 +60,38 @@ const NavbarEs = ({ navbarRef }) => {
                 <span className="nav-link">Contacto</span>
               </Link>
             </li>
+            <li style={{ padding: "4px" }}>
+              <div className="col-lg-2">
+                <div className="dropdown">
+                  <button
+                    className="icon-25 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="/assets/img/langes.png" alt="" className="me-2" />
+                    <span style={{ fontWeight: "bold" }}>Español</span>
+                  </button>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <Link href="/en">
+                        <span
+                          style={{ cursor: "pointer" }}
+                          className="dropdown-item"
+                        >
+                          Inglés
+                        </span>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
           </ul>
-        </div>
-        <div className="col-lg-2">
-          <div
-            className="dropdown"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <button
-              className="icon-25 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img src="/assets/img/langes.png" alt="" className="me-2" />
-              <small>Español</small>
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <Link href="/en">
-                  <span style={{ cursor: "pointer" }} className="dropdown-item">
-                    Inglés
-                  </span>
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </nav>
