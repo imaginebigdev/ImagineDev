@@ -1,27 +1,51 @@
 [
   {
     "picture": "/assets/img/team/1.jpeg",
-    "name": "Michael Edwards",
-    "position": "CEO Founder"
+    "name": "Carla Guzman",
+    "position": "Comunity manager",
+    "linkedin": ""
   },
   {
     "picture": "/assets/img/team/2.jpeg",
-    "name": "Bobby Kane",
-    "position": "CTO"
+    "name": "Gaspar Muñoz",
+    "position": "Full-Stack Web developer",
+    "linkedin": "https://www.linkedin.com/in/gaspar-mu%C3%B1oz-7a9825239/"
   },
   {
     "picture": "/assets/img/team/3.jpeg",
-    "name": "Robert Downey Jr",
-    "position": "Project Manager"
+    "name": "Julieta",
+    "position": "Full-Stack Web developer",
+    "linkedin": ""
   },
   {
+    "picture": "/assets/img/team/3.jpeg",
+    "name": "Mercedes",
+    "position": "Full-Stack Web developer",
+    "linkedin": ""
+  },
+  {
+    "picture": "/assets/img/team/3.jpeg",
+    "name": "Nelson Andres Fuentes",
+    "position": "CEO",
+    "linkedin": ""
+  },
+  {
+    "picture": "/assets/img/team/3.jpeg",
+    "name": "Santiago Bonetto",
+    "position": "Full-Stack Web developer",
+    "linkedin": ""
+  },
+
+  {
     "picture": "/assets/img/team/4.jpeg",
-    "name": "Andrew Robertson",
-    "position": "Marketing Leader"
+    "name": "Valentina Aciar",
+    "position": "Sales",
+    "linkedin": ""
   },
   {
     "picture": "/assets/img/team/5.jpeg",
-    "name": "Alexander Avery",
-    "position": "Creative Director"
+    "name": "Victoria",
+    "position": "Comunity manager",
+    "linkedin": ""
   }
 ]

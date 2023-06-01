@@ -6,11 +6,11 @@ import navbarScrollEffect from "@common/navbarScrollEffect";
 import MainLayout from "@layouts/Main";
 //= Components
 import Navbar from "@components/Navbars/AppNav";
-import Team from "@components/App/Team";
 import Culture from "@components/App/Culture";
 import Footer from "@components/App/Footer";
 import About from "@components/CloudHosting/About";
 import ChooseUs from "@components/IT/ChooseUs";
+import Team from "@components/App/Team";
 
 const PageAboutApp = () => {
   const navbarRef = useRef(null);
@@ -30,8 +30,8 @@ const PageAboutApp = () => {
         <main className="about-page style-5">
           <About />
           <ChooseUs />
-          {/* <Team />
-          <Culture /> */}
+          <Team en />
+          {/* <Culture /> */}
         </main>
         <Footer noWave />
       </MainLayout>
