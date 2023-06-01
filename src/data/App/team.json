@@ -1,22 +1,53 @@
 [
   {
-    "picture": "/assets/img/team/1.jpeg",
-    "name": "Michael Edwards",
-    "position": "CEO Founder"
+    "picture": "/assets/img/team/7.png",
+    "name": "Nelson Andres Fuentes",
+    "position": "CEO",
+    "linkedin": "https://www.linkedin.com/in/nelandfuentes/"
   },
   {
-    "picture": "/assets/img/team/5.jpeg",
-    "name": "Bobby Kane",
-    "position": "CTO"
+    "picture": "/assets/img/team/3.png",
+    "name": "Carla Guzman",
+    "position": "Comunity manager",
+    "linkedin": "https://www.linkedin.com/in/carla-guzm%C3%A1n-2a0419278/"
   },
   {
-    "picture": "/assets/img/team/3.jpeg",
-    "name": "Robert Downey Jr",
-    "position": "Project Manager"
+    "picture": "/assets/img/team/2.png",
+    "name": "Gaspar Muñoz",
+    "position2": "PM &",
+    "position": "Front-end Web developer",
+    "linkedin": "https://www.linkedin.com/in/gaspar-mu%C3%B1oz-7a9825239/"
   },
   {
-    "picture": "/assets/img/team/4.jpeg",
-    "name": "Andrew Robertson",
-    "position": "Marketing Leader"
+    "picture": "/assets/img/team/1.png",
+    "name": "Santiago Bonetto",
+    "position2": "PM &",
+    "position": "Front-end Web developer",
+    "linkedin": "https://www.linkedin.com/in/santiago-bonetto/"
+  },
+  {
+    "picture": "/assets/img/team/4.png",
+    "name": "Julieta",
+    "position": "Back-end developer",
+    "linkedin": "https://www.linkedin.com/in/julieta-raw"
+  },
+  {
+    "picture": "/assets/img/team/5.png",
+    "name": "Mercedes Wiesztort",
+    "position": "Back-end developer",
+    "linkedin": "https://www.linkedin.com/in/mercedes-wiesztort/"
+  },
+
+  {
+    "picture": "/assets/img/team/6.png",
+    "name": "Valentina Aciar",
+    "position": "Seller",
+    "linkedin": ""
+  },
+  {
+    "picture": "/assets/img/team/8.png",
+    "name": "Victoria",
+    "position": "Comunity manager",
+    "linkedin": "https://www.linkedin.com/in/victoriaruibal/"
   }
 ]
