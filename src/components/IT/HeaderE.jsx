@@ -33,8 +33,8 @@ const HeaderE = () => {
               </div>
               <br></br>
               <h4 style={{ textTransform: "none" }}>
-                Despierta el Poder de tu Marca a través de la Magia de las
-                Conexiones Digitales
+                Despierta el poder de tu marca a través de la magia de las
+                conexiones digitales
               </h4>
               <p className="d-block mt-40" style={{ textTransform: "none" }}>
                 En este vasto mundo digital, donde las voces se entrelazan y las

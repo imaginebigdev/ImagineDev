@@ -49,6 +49,13 @@ const PlanE = () => {
                       className={`pricing_card ${
                         plan.recommended ? "recomendado" : ""
                       } style-2`}
+                      style={{ transition: "transform 0.3s" }} // Add transition to transform property
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = "scale(0.70)"; // Scale down the card
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = "scale(1)"; // Reset to original size
+                      }}
                     >
                       {plan.recommended && (
                         <span className="hint">Recomendado</span>
