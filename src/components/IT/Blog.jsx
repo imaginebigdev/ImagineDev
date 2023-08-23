@@ -26,7 +26,7 @@ const Blog = () => {
             <div className="content">
               <div className="row gx-5">
                 {firstBlog.map((blog, index) => (
-                  <div className="col-lg-6 border-end brd-light">
+                  <div className="col-lg-6 border-end brd-light" key={index}>
                     <div className="card border-0 bg-transparent rounded-0 text-white mb-4 mb-lg-0">
                       <div className="img">
                         <img
@@ -36,7 +36,6 @@ const Blog = () => {
                         />
                       </div>
                       <div className="card-body px-0">
-                       
                         <h4 className="fw-normal text-white mt-2">
                           <Link href="/page-single-post-5">
                             <a>{blog.title}</a>
