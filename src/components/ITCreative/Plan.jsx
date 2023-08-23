@@ -80,7 +80,7 @@ const Plan = () => {
                       </ul>
                       <Link href="/contact">
                         <a className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue">
-                          <span>Contact Us</span>
+                          <span style={{ color: "#fff" }}>Contact Us</span>
                         </a>
                       </Link>
                     </div>
@@ -95,7 +95,12 @@ const Plan = () => {
               <p className="text-white text-center mt-50">
                 Have a large team?{" "}
                 <Link href="/contact">
-                  <a className="text-decoration-underline">Contact us</a>
+                  <a
+                    className="text-decoration-underline"
+                    style={{ color: "#61218cff" }}
+                  >
+                    Contact us
+                  </a>
                 </Link>{" "}
                 for information about more enterprise options.
               </p>

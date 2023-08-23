@@ -80,7 +80,7 @@ const PlanE = () => {
                       </ul>
                       <Link href="/contact">
                         <a className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue">
-                          <span>Contáctenos</span>
+                          <span style={{ color: "#fff" }}>Contáctenos</span>
                         </a>
                       </Link>
                     </div>
@@ -96,7 +96,10 @@ const PlanE = () => {
               <p className="text-white text-center mt-50">
                 ¿Tienes un equipo grande?{" "}
                 <Link href="/contact">
-                  <a className="text-decoration-underline">
+                  <a
+                    className="text-decoration-underline"
+                    style={{ color: "#61218cff" }}
+                  >
                     Contacta con nosotros
                   </a>
                 </Link>{" "}

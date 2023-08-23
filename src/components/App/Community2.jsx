@@ -21,7 +21,7 @@ const Community2 = ({ rtl }) => {
           >
             {rtl ? "مجتمع نوتيرو" : "Imagine Big Community"}
           </small>
-          <h2 className="mb-30">
+          <h2 className="mb-30" style={{ color: "#fff" }}>
             {rtl ? "انضم إلى" : "Join Into"}{" "}
             <span>{rtl ? "مركزنا" : "Our Hub"}</span>{" "}
           </h2>
@@ -39,7 +39,7 @@ const Community2 = ({ rtl }) => {
                 <i className={item.icon}></i>
               </div>
               <div className="inf">
-                <h5>{item.title}</h5>
+                <h5 style={{ color: "#fff" }}>{item.title}</h5>
                 <p>{item.description}</p>
               </div>
             </a>

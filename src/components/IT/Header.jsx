@@ -52,7 +52,7 @@ const Header = () => {
               </p>
               <Link href="/contact">
                 <a className="btn sm-butn border text-white radius-9 mt-60 hover-darkBlue">
-                  <span>Learn more about us</span>
+                  <span style={{ color: "#fff" }}>Learn more about us</span>
                 </a>
               </Link>
             </div>

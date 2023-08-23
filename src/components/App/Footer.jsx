@@ -38,24 +38,24 @@ const Footer = ({ noWave }) => {
             <div className="col-lg-8">
               <ul className="links">
                 <li>
-                  <a href="/en" style={{ color: "black" }}>
+                  <Link href="/en" style={{ color: "black" }}>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about" style={{ color: "black" }}>
+                  <Link href="/about" style={{ color: "black" }}>
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/aceleraClick" style={{ color: "black" }}>
+                  <Link href="/aceleraClick" style={{ color: "black" }}>
                     Acelera Click
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" style={{ color: "black" }}>
+                  <Link href="/contact" style={{ color: "black" }}>
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

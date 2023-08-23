@@ -12,18 +12,19 @@ const NumbersEsp = () => {
           <div className="row">
             {numbers.map((number, index) => (
               <div className="col-lg-4" key={index}>
-                <div className="num-item">
-                  <div className="num">
-                    <span>+</span>
+                <div className="num-item" >
+                  <div className="num" >
+                    <span style={{ color: "#fff" }}>+</span>
                     <CountTo
                       className="counter"
                       from={0}
                       to={number.value}
                       speed={1000}
                       position={position}
+                      
                     />
                   </div>
-                  <div className="inf">
+                  <div className="inf" >
                     {number.title.part1} <br /> {number.title.part2}
                   </div>
                 </div>

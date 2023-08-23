@@ -51,8 +51,10 @@ const HeaderE = () => {
                 tuya, pero también es de aquellos que la viven con emoción.
               </p>
               <Link href="/contact">
-                <a className="btn sm-butn border text-white radius-9 mt-60 hover-darkBlue">
-                  <span>Conoce mas sobre nosotros</span>
+                <a className="btn sm-butn border text-white radius-9 mt-60 hover-darkBlue"q>
+                  <span style={{ color: "#fff" }}>
+                    Conoce mas sobre nosotros
+                  </span>
                 </a>
               </Link>
             </div>
