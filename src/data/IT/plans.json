@@ -4,9 +4,15 @@
     "title": "NET",
     "price": "9.99",
     "features": [
-      "Per/Month",
-      "Your company with basic positioning",
-      "LIGHT TRAFFIC WITH STEADY PROGRESS"
+      "Per Month",
+      "1 Online Catalog (updated)",
+      "12 Number of Posts",
+      "12 Image Edits",
+      "4 Video Editing",
+      "2 Social Media Postings",
+      "1 Brand Blog Post",
+      "4 Stories",
+      "1 Campaign Setup"
     ]
   },
   {
@@ -14,9 +20,15 @@
     "title": "GIGA",
     "price": "19.50",
     "features": [
-      "Per/Month",
-      "Your brand fully online in the digital world",
-      "MEDIUM TRAFFIC CONQUERING AUDIENCE"
+      "Per Month",
+      "1 Catalog / Website (updated)",
+      "16 Number of Posts",
+      "16 Image Edits",
+      "8 Stories per Month",
+      "8 REEL Video Edits per Month",
+      "4 Social Media Postings",
+      "1 Brand Blog Post",
+      "1 PAIDSOCIAL Campaigns (advertising funnel)"
     ],
     "recommended": true
   },
@@ -25,9 +37,19 @@
     "title": "PLATINUM",
     "price": "29.99",
     "features": [
-      "Per/Month",
-      "Your company 100% complete online presence",
-      "DAILY TRAFFIC POSITIONING THE BRAND"
+      "Per Month",
+      "1 Online Catalog (updated)",
+      "20 Number of Posts",
+      "20 Image Edits",
+      "10 Video Edits",
+      "12 Stories",
+      "8 REEL Video Edits",
+      "1 Online Contest per Month",
+      "5 Social Media Postings",
+      "2 Brand Blog Posts",
+      "1 PAIDSOCIAL Campaign Setup",
+      "1 GoogleAds SEM Campaign Setup"
     ]
   }
 ]
+

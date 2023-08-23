@@ -32,18 +32,18 @@ const HeaderE = () => {
                 </a>
               </div>
               <br></br>
-              <h4>
+              <h4 style={{ textTransform: "none" }}>
                 Despierta el Poder de tu Marca a través de la Magia de las
                 Conexiones Digitales
               </h4>
-              <p className="d-block mt-40">
+              <p className="d-block mt-40" style={{ textTransform: "none" }}>
                 En este vasto mundo digital, donde las voces se entrelazan y las
                 historias cobran vida, existe un lugar donde tu marca puede
                 brillar con luz propia. Un lugar donde las comunidades no solo
                 conocen tus productos o servicios, sino que también abrazan tu
                 esencia con pasión y autenticidad.
               </p>
-              <p className="d-block mt-40">
+              <p className="d-block mt-40" style={{ textTransform: "none" }}>
                 Bienvenido a un universo de conversaciones genuinas, donde cada
                 palabra es un lazo, cada interacción es un puente y cada
                 experiencia es un vínculo. Aquí, en el corazón de las redes
@@ -51,7 +51,10 @@ const HeaderE = () => {
                 tuya, pero también es de aquellos que la viven con emoción.
               </p>
               <Link href="/contact">
-                <a className="btn sm-butn border text-white radius-9 mt-60 hover-darkBlue"q>
+                <a
+                  className="btn sm-butn border text-white radius-9 mt-60 hover-darkBlue"
+                  q
+                >
                   <span style={{ color: "#fff" }}>
                     Conoce mas sobre nosotros
                   </span>

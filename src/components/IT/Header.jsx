@@ -32,18 +32,18 @@ const Header = () => {
                 </a>
               </div>
               <br></br>
-              <h4>
-                Awaken the Power of Your Brand Through the Magic of Digital
-                Connections
+              <h4 style={{ textTransform: "none" }}>
+                Awaken the power of your brand through the magic of digital
+                connections
               </h4>
-              <p className="d-block mt-40">
+              <p className="d-block mt-40" style={{ textTransform: "none" }}>
                 In this vast digital world, where voices intertwine and stories
                 come to life, there's a place where your brand can shine with
                 its own light. A place where communities not only become
                 familiar with your products or services, but also embrace your
                 essence with passion and authenticity.
               </p>
-              <p className="d-block mt-40">
+              <p className="d-block mt-40" style={{ textTransform: "none" }}>
                 Welcome to a universe of genuine conversations, where each word
                 forms a bond, each interaction builds a bridge, and each
                 experience creates a connection. Here, at the heart of social

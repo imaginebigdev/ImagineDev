@@ -41,7 +41,10 @@ const Plan = () => {
               <div className="toggle_switch d-flex align-items-center justify-content-center mb-20"></div>
               <div className="row justify-content-center gx-0">
                 {plans.map((plan, index) => (
-                  <div className="col-lg-4" key={index}>
+                  <div
+                    className="col-lg-4 d-flex align-items-center"
+                    key={index}
+                  >
                     <div
                       className={`pricing_card ${
                         plan.recommended ? "recommended" : ""
