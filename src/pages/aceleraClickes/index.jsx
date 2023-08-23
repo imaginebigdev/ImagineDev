@@ -77,6 +77,7 @@ const FullStack = () => {
           <br></br>
           <Modulo8 /> */}
           <Community2E />
+          
           <Footer2 />
         </main>
       </MainLayout>
