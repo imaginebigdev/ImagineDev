@@ -1,16 +1,37 @@
 [
   {
-    "review": "We encountered a problem with processing \n big data and after only 1 week, Iteck’s Experts provided perfect \n IT solutions, fast process & affordable price. \n We’re really satisfied!",
-    "userImage": "/assets/img/team/2.jpeg",
+    "review": "Spoken, heard, and understood. Words flow in both directions, creating a symphony of mutual understanding. From the very first moment, your brand is presented with a magical touch, an impression that lingers and leaves a mark on the digital soul of those who come across it.",
     "stars": 5,
-    "username": "Conor M.",
-    "userPosition": "Senior Marketing at Amazon"
+    "title": "Connection is Our Language"
   },
   {
-    "review": "We encountered a problem with processing \n big data and after only 1 week, Iteck’s Experts provided perfect \n IT solutions, fast process & affordable price. \n We’re really satisfied!",
-    "userImage": "/assets/img/team/1.jpeg",
+    "review": "Every step is calculated, yet also a gesture of innovation. Our creative team brings to life a content strategy that not only educates and sells but also delivers genuine value. We know that the foundation of an active community is the quality of the stories we share.",
     "stars": 5,
-    "username": "Conor M.",
-    "userPosition": "Senior Marketing at Amazon"
+    "title": "Strategy, a Creative Dance"
+  },
+  {
+    "review": "Social media is the vehicle of our journey. Through carefully chosen channels, we boost your presence and bring to your doorstep those who will resonate with your message. Your brand becomes a melody that resonates in the hearts that have yet to have the pleasure of hearing it.",
+    "stars": 5,
+    "title": "The Path to Recognition"
+  },
+  {
+    "review": "Social media is like a mirror that reflects the perception of your brand. We're here, attentive and aware, listening to the digital voices around you. Every reaction, every opinion, becomes a pillar in building the image you project.",
+    "stars": 5,
+    "title": "The Magic of Listening"
+  },
+  {
+    "review": "Your brand is not just an entity. It becomes an unfolding story, a shared narrative. Our mission is to be passionate ambassadors of your vision, personify your values, and carry your essence to every digital corner.",
+    "stars": 5,
+    "title": "A Bond that Transcends"
+  },
+  {
+    "review": "Every day, our actions are guided by a purpose: to unleash the power of your brand in the vast digital landscape. We are not just strategists; we are storytellers of your story, architects of connections, and guardians of your essence. We are here to connect you with those who await to be captivated by your unique voice.",
+    "stars": 5,
+    "title": "Today, Awakening is Real"
+  },
+  {
+    "review": "On this exciting journey, we leave no loose ends. Each step is followed by deep analysis. We measure the growing community, the blossoming engagement, and the expanding reach. Every achievement, every challenge, translates into knowledge that guides our path.",
+    "stars": 5,
+    "title": "The Science of Measurement"
   }
 ]

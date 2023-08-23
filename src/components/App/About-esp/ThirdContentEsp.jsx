@@ -37,7 +37,7 @@ const ThirdContentEsp = ({ marketing }) => {
                   </li>
                 ))}
               </ul>
-              <Link href="https://www.youtube.com/watch?v=dF2M_dreLeQ">
+              <Link href="/aceleraClickes">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

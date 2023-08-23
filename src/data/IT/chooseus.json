@@ -1,47 +1,47 @@
 [
-  {
-    "image": "/assets/img/icons/1.png",
-    "title": "Excellence",
-    "desc": {
-      "desc1": "We offer high quality products and services,",
-      "desc2": " through continuous improvement and innovation."
+    {
+      "image": "/assets/img/icons/1.png",
+      "title": "Excellence",
+      "desc": {
+        "desc1": "We offer high quality products and services,",
+        "desc2": " through continuous improvement and innovation."
+      }
+    },
+    {
+      "image": "/assets/img/icons/2.png",
+      "title": "Customer orientation",
+      "desc": {
+        "desc1": "We work with a customer-centric approach and ",
+        "desc2": "ensure that our customers' needs are met."
+      }
+    },
+    {
+      "image": "/assets/img/icons/3.png",
+      "title": "Teamwork",
+      "desc": {
+        "desc1": "We opt for a collaborative and complex process,",
+        "desc2": " with the cooperation of all members of the company."
+      }
+    },
+    {
+      "image": "/assets/img/icons/4.png",
+      "title": "Transparency",
+      "desc": {
+        "desc1": "We are honest and ethical in all interactions and transactions.",
+        "desc2": ""
+      }
+    },
+    {
+      "image": "/assets/img/icons/5.png",
+      "title": "Innovation",
+      "desc": {
+        "desc1": "We like to innovate, keeping abreast of the latest technological trends",
+        "desc2": ", in order to offer advanced technological solutions to our clients."
+      }
+    },
+    {
+      "image": "/assets/img/icons/6.png",
+      "title": "Social responsibility",
+      "desc": "Customer support is always our number one priority."
     }
-  },
-  {
-    "image": "/assets/img/icons/2.png",
-    "title": "Customer orientation",
-    "desc": {
-      "desc1": "We work with a customer-centric approach and ",
-      "desc2": "ensure that our customers' needs are met."
-    }
-  },
-  {
-    "image": "/assets/img/icons/3.png",
-    "title": "Teamwork",
-    "desc": {
-      "desc1": "We opt for a collaborative and complex process,",
-      "desc2": " with the cooperation of all members of the company."
-    }
-  },
-  {
-    "image": "/assets/img/icons/4.png",
-    "title": "Transparency",
-    "desc": {
-      "desc1": "We are honest and ethical in all interactions and transactions.",
-      "desc2": ""
-    }
-  },
-  {
-    "image": "/assets/img/icons/5.png",
-    "title": "Innovation",
-    "desc": {
-      "desc1": "We like to innovate, keeping abreast of the latest technological trends",
-      "desc2": ", in order to offer advanced technological solutions to our clients."
-    }
-  },
-  {
-    "image": "/assets/img/icons/6.png",
-    "title": "Social responsibility",
-    "desc": "Customer support is always our number one priority."
-  }
-]
+  ]

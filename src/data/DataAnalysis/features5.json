@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Introducción a Node.js:",
+        "title2": "Se enseñarán los conceptos básicos de Express.js, un marco de aplicación web rápido y minimalista para Node.js. Los estudiantes aprenderán a crear rutas, manejar solicitudes HTTP y enviar respuestas desde el servidor"
+    },
+      {
+        "id": 2,
+        "title": "Fundamentos de Express.js:",
+        "title2": "Se enseñarán los conceptos básicos de Express.js, un marco de aplicación web rápido y minimalista para Node.js. Los estudiantes aprenderán a crear rutas, manejar solicitudes HTTP y enviar respuestas desde el servidor."
+        
+      },
+      {
+        "id": 3,
+        "title": "Persistencia de datos:",
+        "title2": "Se explorarán diferentes enfoques para almacenar y recuperar datos en una aplicación web. Los estudiantes aprenderán a interactuar con bases de datos relacionales utilizando SQL y con bases de datos no relacionales utilizando MongoDB."
+  
+      },
+      {
+        "id": 4,
+        "title": "Autenticación y autorización:",
+        "title2": "Se discutirán las técnicas y estrategias para autenticar y autorizar usuarios en una aplicación web. Los estudiantes aprenderán a implementar la autenticación basada en tokens utilizando bibliotecas como Passport.js. ."
+  
+      },
+      {
+        "id": 5,
+        "title": "Creación de API RESTful:  ",
+        "title2": "Se explicará cómo diseñar y construir APIs RESTful utilizando Express.js. Los estudiantes aprenderán a definir rutas, gestionar solicitudes y respuestas, yaplicar buenas prácticas para el diseño de API."
+  
+      },
+      {
+        "id": 6,
+        "title": "Pruebas y depuración:",
+        "title2": "Se discutirán las técnicas y herramientas para realizar pruebas y depurar aplicaciones back-end. Los estudiantes aprenderán a escribir pruebas unitarias y realizar pruebas de integración utilizando herramientas populares como Mocha y Chai."
+  
+      }
+    
+  ]

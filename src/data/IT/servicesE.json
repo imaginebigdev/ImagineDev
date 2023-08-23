@@ -1,0 +1,55 @@
+{
+    "services": [
+      {
+        "image": "/assets/img/icons/serv_icons/7.png",
+        "title": "OPTIMIZACIÓN PERFIL DIGITAL (SMO)",
+        "desc": "Alineamos tus redes sociales con la personalidad de tu marca destacando tus propuestas de valor. ¡Logramos que tu comunidad tenga una impresión positiva de tu marca desde el primer contacto!",
+        "tags": ["Strategy", "Consultation", "Management", "Infrastructure"]
+      },
+      {
+        "image": "/assets/img/icons/serv_icons/icon(3).png",
+        "title": "CREACIÓN DE CONTENIDO (SMM)t",
+        "desc": "Nuestro equipo creativo pone en marcha una estrategia de contenido pensada especialmente para tu marca. ¡Educamos, vendemos y ofrecemos valor! Sabemos que la base de una comunidad activa y enganchada es el contenido de calidad.",
+        "tags": ["Ecommerce", "Landing Page", "CMS", "Plugin", "VR/AR", "iOS & Android"]
+      },
+      {
+        "image": "/assets/img/icons/serv_icons/9.png",
+        "title": "PAID SOCIAL - ATRACCIÓN  (SPAY)",
+        "desc": "Apoyamos la estrategia con diferentes canales pagos para llevar tráfico calificado a tus redes sociales. ¡Hacemos que cada vez más personas afines a tu marca te conozcan y se enamoren de ti!",
+        "tags": ["Management", "Backup & Recovery", "Transfer", "Storerage", "Hosting & VPS"]
+      },
+      {
+        "image": "/assets/img/icons/serv_icons/8.png",
+        "title": "GENERACIÓN DE CONVERSACIÓN",
+        "desc": "La magia de las redes sociales está en el poder de conectarnos. Creamos acciones e interactuamos con tu comunidad en tus canales digitales. ¡Hacemos social listening para monitorear la percepción de tu marca!",
+        "tags": ["Ecommerce", "Landing Page", "CMS", "Plugin", "VR/AR", "iOS & Android"]
+      }
+    ],
+    "works": [
+      {
+        "image": "/assets/img/blog/estrategia.png",
+        "title": "CONTENT SOCIAL MANAGER",
+        "tags": ["Elaboramos la ESTRATEGIA de actuación para abastecer todos los canales sociales"]
+      },
+      {
+        "image": "/assets/img/blog/arte.png",
+        "title": "ARTE",
+        "tags": ["Creamos la estética de la marca, definimos patrones, colores, tipografía, iconos, banco de imágenes asociadas al branding de la marca."]
+      },
+      {
+        "image": "/assets/img/blog/video.png",
+        "title": "VIDEO EDICIÓN",
+        "tags": ["diseño y creación de videos. vídeo 3d gráficos en movimiento. creamos contenido para youtube, tiktok, vimeo, twitch, facebook live, instagram reels & historys"]
+      },
+      {
+        "image": "/assets/img/blog/diseño.png",
+        "title": "DISEÑO",
+        "tags": ["Desarrollamos cada pieza gráfica con los formatos adecuados y estandarizados para Facebook, Twitter, TikTok, Instagram, Youtube, Twicth, Snapchat, Pinterest, Reddit."]
+      },
+      {
+        "image": "/assets/img/blog/posteo(1).png",
+        "title": "POSTEO",
+        "tags": ["Creamos el plan social de la marca y ejecutamos las acciones de posteo y publicación en todos los canales sociales."]
+      }
+    ]
+  }

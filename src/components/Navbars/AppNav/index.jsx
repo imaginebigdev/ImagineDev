@@ -56,6 +56,12 @@ const Navbar = ({ navbarRef, rtl }) => {
             </li>
 
             <li className="nav-item">
+              <Link href="/aceleraClick">
+                <span className="nav-link">Acelera Click</span>
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link href="/contact">
                 <span className="nav-link">Contact</span>
               </Link>

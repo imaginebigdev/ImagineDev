@@ -28,20 +28,6 @@ const Footer = ({ noWave }) => {
       data-scroll-index="8"
     >
       <div className="container">
-        <div className="section-head text-center style-4">
-          <h2 className="mb-10">
-            let's talk about your <span>PROJECT</span>{" "}
-          </h2>
-          <p>The growth of your brand is one click away.</p>
-          <div className="d-flex align-items-center justify-content-center mt-50">
-            <Link href="/contact">
-              <small className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
-                {" "}
-                CONTACT US
-              </small>
-            </Link>
-          </div>
-        </div>
         <div className="foot mt-80">
           <div className="row align-items-center">
             <div className="col-lg-2">
@@ -52,15 +38,24 @@ const Footer = ({ noWave }) => {
             <div className="col-lg-8">
               <ul className="links">
                 <li>
-                  <Link className="active" href="/en">
+                  <a href="/en" style={{ color: "black" }}>
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/about">About</Link>
+                  <a href="/about" style={{ color: "black" }}>
+                    About
+                  </a>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <a href="/aceleraClick" style={{ color: "black" }}>
+                    Acelera Click
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" style={{ color: "black" }}>
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
@@ -102,10 +97,18 @@ const Footer = ({ noWave }) => {
         <div className="copywrite text-center">
           <small className="small">
             © 2023 Copyrights by{" "}
-            <a className="fw-bold text-decoration-underline">Imagine Big</a> All
-            Rights Reserved. Designed by{" "}
+            <a
+              className="fw-bold text-decoration-underline"
+              style={{ color: "#61218cff", cursor: "pointer" }}
+            >
+              Imagine Big
+            </a>{" "}
+            All Rights Reserved. Designed by{" "}
             <Link href="/">
-              <span className="fw-bold text-decoration-underline">
+              <span
+                className="fw-bold text-decoration-underline"
+                style={{ color: "#61218cff", cursor: "pointer" }}
+              >
                 Imagine Big
               </span>
             </Link>

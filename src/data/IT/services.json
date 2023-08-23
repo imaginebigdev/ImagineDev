@@ -2,33 +2,56 @@
   "services": [
     {
       "image": "/assets/img/icons/serv_icons/7.png",
-      "title": "IT Consultation",
-      "desc": "We provide best IT solutions suit for any type of business as stragegy, management, etc",
+      "title": "DIGITAL PROFILE OPTIMIZATION (SMO)",
+      "desc": "We align your social media profiles with your brand's personality, highlighting your value propositions. We ensure that your community has a positive impression of your brand from the first contact!",
       "tags": ["Strategy", "Consultation", "Management", "Infrastructure"]
     },
     {
-      "image": "/assets/img/icons/serv_icons/8.png",
-      "title": "Software Development",
-      "desc": "We provide best IT solutions suit for any type of business as stragegy, management, etc",
+      "image": "/assets/img/icons/serv_icons/icon(3).png",
+      "title": "CONTENT CREATION (SMM)",
+      "desc": "Our creative team implements a content strategy tailored specifically to your brand. We educate, sell, and provide value! We understand that quality content is the foundation of an active and engaged community.",
       "tags": ["Ecommerce", "Landing Page", "CMS", "Plugin", "VR/AR", "iOS & Android"]
     },
     {
       "image": "/assets/img/icons/serv_icons/9.png",
-      "title": "Data Security",
-      "desc": "We provide best IT solutions suit for any type of business as stragegy, management, etc",
+      "title": "PAID SOCIAL - ATTRACTION (SPAY)",
+      "desc": "We support the strategy with different paid channels to drive qualified traffic to your social media platforms. We make sure that more and more people who resonate with your brand get to know you and fall in love with you!",
       "tags": ["Management", "Backup & Recovery", "Transfer", "Storerage", "Hosting & VPS"]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/8.png",
+      "title": "CONVERSATION GENERATION",
+      "desc": "The magic of social media lies in the power of connection. We create actions and interact with your community on your digital channels. We conduct social listening to monitor the perception of your brand!",
+      "tags": ["Ecommerce", "Landing Page", "CMS", "Plugin", "VR/AR", "iOS & Android"]
     }
   ],
   "works": [
     {
-      "image": "/assets/img/projects/1.png",
-      "title": "Rento Car Rental Dashboard",
-      "tags": ["Landing Page, ", "UI/UX Design"]
+      "image": "/assets/img/blog/estrategia.png",
+      "title": "SOCIAL CONTENT MANAGER",
+      "tags": ["We develop the ACTION strategy to supply all social channels"]
     },
     {
-      "image": "/assets/img/projects/2.png",
-      "title": "Analys & Backup Blockchain",
-      "tags": ["data security, ", "IT consultation"]
+      "image": "/assets/img/blog/arte.png",
+      "title": "ART",
+      "tags": ["We create the brand's aesthetics, define patterns, colors, typography, icons, and images associated with the brand's branding."]
+    },
+    {
+      "image": "/assets/img/blog/video.png",
+      "title": "VIDEO EDITING",
+      "tags": ["Design and creation of videos. 3D motion graphics videos. We create content for YouTube, TikTok, Vimeo, Twitch, Facebook Live, Instagram Reels & Stories."]
+    },
+    {
+      "image": "/assets/img/blog/diseño.png",
+      "title": "DESIGN",
+      "tags": ["We develop each graphic piece with the appropriate and standardized formats for Facebook, Twitter, TikTok, Instagram, Youtube, Twitch, Snapchat, Pinterest, Reddit."]
+    },
+    {
+      "image": "/assets/img/blog/posteo(1).png",
+      "title": "POSTING",
+      "tags": ["We create the brand's social plan and execute posting and publishing actions on all social channels."]
     }
   ]
 }
+
+ 

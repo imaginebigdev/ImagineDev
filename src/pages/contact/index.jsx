@@ -10,7 +10,7 @@ import Navbar from "@components/Navbars/AppNav";
 import Community from "@components/Contact/Community";
 import Form from "@components/Contact/Form";
 import Map from "@components/Contact/Map";
-import Footer from "@components/App/Footer";
+import Footer from "@components/App/Footer2";
 
 const PageContactApp = () => {
   const navbarRef = useRef(null);

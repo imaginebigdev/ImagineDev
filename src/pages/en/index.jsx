@@ -13,7 +13,7 @@ import Clients from "@components/App/Clients";
 import Screenshots from "@components/App/Screenshots";
 import FAQ from "@components/App/FAQ";
 import Community from "@components/App/Community";
-import Footer from "@components/App/Footer";
+import Footer from "@components/App/Footer2I";
 
 const HomeAppLanding = () => {
   const navbarRef = useRef(null);

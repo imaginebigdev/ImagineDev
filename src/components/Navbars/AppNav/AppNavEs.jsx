@@ -54,7 +54,11 @@ const NavbarEs = ({ navbarRef }) => {
                 <span className="nav-link">Nosotros</span>
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link href="/aceleraClickes">
+                <span className="nav-link">Acelera Click</span>
+              </Link>
+            </li>
             <li className="nav-item">
               <Link href="/contacto">
                 <span className="nav-link">Contacto</span>
@@ -71,7 +75,9 @@ const NavbarEs = ({ navbarRef }) => {
                     aria-expanded="false"
                   >
                     <img src="/assets/img/langes.png" alt="" className="me-2" />
-                    <span style={{ fontWeight: "bold" }}>Español</span>
+                    <span style={{ fontWeight: "bold", color: "#000" }}>
+                      Español
+                    </span>
                   </button>
                   <ul
                     className="dropdown-menu"

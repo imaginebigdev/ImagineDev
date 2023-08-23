@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Introducción a React.js:",
+        "title2": "Se proporcionará una visión general de React.js y su papel en eldesarrollo de aplicaciones web modernas. Los estudiantes aprenderán sobre los componentes, el estado y las propiedades de React.js."
+    },
+      {
+        "id": 2,
+        "title": "Componentes y JSX: ",
+        "title2": "Los estudiantes aprenderán a crear componentes reutilizables utilizando JSX (JavaScript XML), una extensión de JavaScript que permite escribir código HTML dentro de archivos JavaScript. Se explorará cómo los componentes pueden ayudar aorganizar y modularizar el código."
+        
+      },
+      {
+        "id": 3,
+        "title": "Manejo del estado: ",
+        "title2": " Se enseñará a los estudiantes cómo gestionar el estado de una aplicación utilizando el estado local de los componentes de React.js. También se explorarán técnicas más avanzadas, como el uso de Redux para gestionar el estado global de la aplicación."
+  
+      },
+      {
+        "id": 4,
+        "title": "Enrutamiento: ",
+        "title2": "Se introducirá el enrutamiento en una aplicación de React.js utilizando bibliotecas populares como react-router. Los estudiantes aprenderán a crear rutas y navegar entre diferentes páginas dentro de una aplicación."
+  
+      },
+      {
+        "id": 5,
+        "title": "Interacción con API: ",
+        "title2": "Se explorará cómo interactuar con APIs (Interfaces de Programación de Aplicaciones) para obtener y enviar datos desde una aplicación de React.js. Los estudiantes aprenderán cómo realizar solicitudes HTTP y procesar respuestas utilizando bibliotecas como Axios o Fetch."
+  
+      },
+      {
+        "id": 6,
+        "title": "Optimización y rendimiento:",
+        "title2": "Se discutirán las mejores prácticas para optimizar el rendimiento de una aplicación de React.js, incluyendo la implementación de técnicas comoel lazy loading, memoización y el uso de React DevTools para el diagnóstico y depuración."
+  
+      }
+    
+  ]

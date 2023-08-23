@@ -92,10 +92,16 @@ header.style-2 {
   position: relative;
   min-height: 100vh;
   padding: 185px 0 100px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-40%, #062063), color-stop(40%, #157aa6));
-  background: -webkit-linear-gradient(bottom, #062063 -40%, #157aa6 40%);
-  background: -o-linear-gradient(bottom, #062063 -40%, #157aa6 40%);
-  background: linear-gradient(to top, #062063 -40%, #157aa6 40%);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(-40%, #61218c),
+    color-stop(40%, #9913b6)
+  );
+  background: -webkit-linear-gradient(bottom, #61218c -40%, #9913b6 40%);
+  background: -o-linear-gradient(bottom, #61218c -40%, #9913b6 40%);
+  background: linear-gradient(to top, #61218c -40%, #9913b6 40%);
 }
 
 header.style-2 .head_shape2 {
@@ -187,8 +193,10 @@ header.style-3::before {
   background-repeat: repeat;
   background-position: bottom;
   opacity: 0.08;
-  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(1003%) contrast(103%);
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(1003%) contrast(103%);
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg)
+    brightness(1003%) contrast(103%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg)
+    brightness(1003%) contrast(103%);
 }
 
 header.style-3 .main-img {
@@ -330,10 +338,40 @@ header.style-4 .content .info h1 {
 header.style-4 .content .info h1 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -webkit-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#501e9c),
+    color-stop(30%, #8169f1),
+    color-stop(30%, #8169f1),
+    color-stop(73%, #a44cee),
+    to(#ff847f)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
+    #ff847f 100%
+  );
+  background-image: -o-linear-gradient(
+    left,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
+    #ff847f 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
+    #ff847f 100%
+  );
 }
 
 header.style-4 .content .info .text {
@@ -401,9 +439,26 @@ header.style-5 {
   position: relative;
   padding: 60px 0 80px;
   overflow: hidden;
-  background: -moz-linear-gradient(bottom, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
-  background: -webkit-linear-gradient(bottom, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(74%, #edf4fe), to(#e7f1ff));
+  background: -moz-linear-gradient(
+    bottom,
+    #ffffff 0%,
+    #edf4fe 74%,
+    #e7f1ff 100%
+  );
+  background: -webkit-linear-gradient(
+    bottom,
+    #ffffff 0%,
+    #edf4fe 74%,
+    #e7f1ff 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ffffff),
+    color-stop(74%, #edf4fe),
+    to(#e7f1ff)
+  );
   background: -o-linear-gradient(bottom, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
   background: linear-gradient(to top, #ffffff 0%, #edf4fe 74%, #e7f1ff 100%);
 }

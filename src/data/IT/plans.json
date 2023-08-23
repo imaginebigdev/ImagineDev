@@ -1,32 +1,33 @@
 [
   {
     "image": "/assets/img/icons/pr1.png",
-    "title": "Personal",
+    "title": "NET",
     "price": "9.99",
     "features": [
-      "3 PRojects",
-      "6 Months support"
+      "Per/Month",
+      "Your company with basic positioning",
+      "LIGHT TRAFFIC WITH STEADY PROGRESS"
     ]
   },
   {
     "image": "/assets/img/icons/pr2.png",
-    "title": "small team",
+    "title": "GIGA",
     "price": "19.50",
     "features": [
-      "15 PRojects",
-      "12 Months support",
-      "seo & marketing"
+      "Per/Month",
+      "Your brand fully online in the digital world",
+      "MEDIUM TRAFFIC CONQUERING AUDIENCE"
     ],
     "recommended": true
   },
   {
     "image": "/assets/img/icons/pr3.png",
-    "title": "enterprise",
+    "title": "PLATINUM",
     "price": "29.99",
     "features": [
-      "unlimited PRojects",
-      "lifetime support",
-      "expert consultation"
+      "Per/Month",
+      "Your company 100% complete online presence",
+      "DAILY TRAFFIC POSITIONING THE BRAND"
     ]
   }
 ]

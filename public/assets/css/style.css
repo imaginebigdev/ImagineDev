@@ -70,7 +70,7 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-  --color-main: #0066ff;
+  --color-main: #ae66ff;
   --color-primary: #0066ff;
   --color-secondary: #02b5ff;
   --color-blue2: #61218c;
@@ -78,8 +78,8 @@ TABLE OF CONTENTS:-
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
-  --color-lightBlue: #15f1ff;
-  --color-darkBlue: #010049;
+  --color-lightBlue: #fd76ff;
+  --color-darkBlue: #2f0049 !important;
   --color-darkBlue2: #1f227d;
   --color-orange1: #ff7a41;
   --color-orange2: #f6c463;
@@ -590,10 +590,8 @@ a,
 span,
 img {
   display: inline-block;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  color: inherit;
+  
+  color: white;
   text-decoration: none !important;
 }
 
@@ -2078,7 +2076,7 @@ small.text {
 .section-head.style-4 .title_small {
   font-size: 12px;
   padding: 5px 10px;
-  background-color: #f7f4ff;
+  background-color: rgba(182, 19, 171, 0.44);
   border-radius: 5px;
   color: var(--color-blue4);
   margin-bottom: 20px;
@@ -3494,12 +3492,12 @@ header.style-2 {
     linear,
     left bottom,
     left top,
-    color-stop(-40%, #062063),
-    color-stop(40%, #157aa6)
+    color-stop(-40%, #2e184cff),
+    color-stop(40%, #1d032f)
   );
-  background: -webkit-linear-gradient(bottom, #062063 -40%, #157aa6 40%);
-  background: -o-linear-gradient(bottom, #062063 -40%, #157aa6 40%);
-  background: linear-gradient(to top, #062063 -40%, #157aa6 40%);
+  background: -webkit-linear-gradient(bottom, #2e184cff -40%, #1d032f 40%);
+  background: -o-linear-gradient(bottom, #2e184cff -40%, #1d032f 40%);
+  background: linear-gradient(to top, #2e184cff -40%, #1d032f 40%);
 }
 header.style-2 .head_shape2 {
   position: absolute;
@@ -5785,7 +5783,7 @@ header.style-15 .countdown-content .logos img {
   font-size: 11px;
   padding: 3px 7px;
   border-radius: 4px;
-  background-color: #131172;
+  background-color: #4a0482;
   margin: 3px;
 }
 
@@ -8331,12 +8329,12 @@ header.style-15 .countdown-content .logos img {
     linear,
     left top,
     left bottom,
-    from(#010049),
-    to(#157aa6)
+    from(#2f0049ff),
+    to(#2f0049ff)
   );
-  background: -webkit-linear-gradient(top, #010049, #157aa6);
-  background: -o-linear-gradient(top, #010049, #157aa6);
-  background: linear-gradient(to bottom, #010049, #157aa6);
+  background: -webkit-linear-gradient(top, #2f0049ff, #2f0049ff);
+  background: -o-linear-gradient(top, #2f0049ff, #2f0049ff);
+  background: linear-gradient(to bottom, #2f0049ff, #2f0049ff);
   position: relative;
 }
 .pricing.style-2 .shap_l {
@@ -8369,7 +8367,7 @@ header.style-15 .countdown-content .logos img {
   text-align: center;
   color: #fff;
   padding: 85px 50px 50px;
-  border: 1px solid #3d9dd1;
+  border: 1px solid #ad00ff;
 }
 .pricing_card.style-2 p {
   text-transform: uppercase;
@@ -8398,7 +8396,7 @@ header.style-15 .countdown-content .logos img {
   color: #fff;
   padding: 5px 8px;
   border-radius: 3px;
-  background-color: #1f3f85;
+  background-color: #ea15c2ab;
   text-transform: capitalize;
 }
 .pricing_card.style-2.recommended::before {

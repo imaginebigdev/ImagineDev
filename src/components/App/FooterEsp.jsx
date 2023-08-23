@@ -52,15 +52,24 @@ const FooterEsp = ({ noWave }) => {
             <div className="col-lg-8">
               <ul className="links">
                 <li>
-                  <Link className="active" href="/es">
-                    Inicio
-                  </Link>
+                  <a href="/en" style={{ color: "black" }}>
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <Link href="/nosotros">Nosotros</Link>
+                  <a href="/about" style={{ color: "black" }}>
+                    About
+                  </a>
                 </li>
                 <li>
-                  <Link href="/contacto">Contacto</Link>
+                  <a href="/aceleraClickes" style={{ color: "black" }}>
+                    Acelera Click
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" style={{ color: "black" }}>
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
@@ -102,10 +111,20 @@ const FooterEsp = ({ noWave }) => {
         <div className="copywrite text-center">
           <small className="small">
             © 2023 Copyrights by{" "}
-            <a className="fw-bold text-decoration-underline">Imagine Big</a>{" "}
+            <a
+              className="fw-bold text-decoration-underline"
+              style={{ color: "#61218cff", cursor: "pointer" }}
+            >
+              Imagine Big
+            </a>{" "}
             Todos los Derechos Reservados. Disñada por{" "}
             <Link href="/" className="fw-bold text-decoration-underline">
-              Imagine Big
+              <span
+                className="fw-bold text-decoration-underline"
+                style={{ color: "#61218cff", cursor: "pointer" }}
+              >
+                Imagine Big
+              </span>
             </Link>
           </small>
         </div>

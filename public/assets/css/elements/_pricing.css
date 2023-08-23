@@ -147,6 +147,38 @@
       .pricing-card.style-3.dark-card .btn span {
         color: #000; }
 
+/*+++++++*/
+.pricing_card {
+  position: relative;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.flipped .card {
+  transform: rotateY(180deg);
+}
+
+      /*+++++++*/
+      
 .pricing.style-4 .form-check-input.bg-blue4 {
   background-color: var(--color-blue4);
   border-color: var(--color-blue4); }

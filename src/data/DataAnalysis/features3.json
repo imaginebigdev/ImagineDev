@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Introducción a la web: ",
+        "title2": "Se proporcionará una visión general de cómo funciona la web y los diferentes componentes que intervienen en el proceso de visualización de sitios web en un navegador."
+    },
+      {
+        "id": 2,
+        "title": "HTML Y CSS: ",
+        "title2": " Los estudiantes aprenderán los conceptos básicos de HTML (HyperText Markup Language) y CSS (Cascading Style Sheets), los dos lenguajes fundamentales para estructurar y diseñar páginas web."
+        
+      },
+      {
+        "id": 3,
+        "title": "JavaScript:",
+        "title2": "Se explorará en profundidad el lenguaje de programación JavaScript y su papel crucial en el desarrollo web. Los estudiantes aprenderán los conceptos básicos de programación, manipulación del DOM (Document Object Model) y manejo de eventos."
+  
+      }
+    
+  ]
