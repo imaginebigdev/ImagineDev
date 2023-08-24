@@ -1,5 +1,6 @@
 import Link from "next/link";
 import plans from "@data/IT/plans.json";
+import React, { useState } from "react";
 
 const Plan = () => {
   const togglePlanDuration = (duration) => {
@@ -15,15 +16,20 @@ const Plan = () => {
     }
   };
 
+  const [showMore, setShowMore] = useState({}); // Use an object to track showMore for each card
+
+  const handleShowMore = (index) => {
+    setShowMore((prevShowMore) => ({ ...prevShowMore, [index]: true }));
+  };
+
+  const handleShowLess = (index) => {
+    setShowMore((prevShowMore) => ({ ...prevShowMore, [index]: false }));
+  };
+
   return (
     <section
       className="pricing style-2 border-top brd-light section-padding"
       data-scroll-index="6"
-      /* style={{
-    background:
-      "linear-gradient(to right, black 50%, rgba(124, 0, 174, 0.8) 50%), radial-gradient(at center, rgba(72, 0, 103, 0.8), rgba(0, 0, 0, 0.8)), url('your-background-image.jpg')",
-    backgroundBlendMode: "multiply",
-  }} */
     >
       <div className="container">
         <div className="section-head mb-30 text-center">
@@ -39,7 +45,7 @@ const Plan = () => {
           <div className="col-lg-10">
             <div className="content">
               <div className="toggle_switch d-flex align-items-center justify-content-center mb-20"></div>
-              <div className="row justify-content-center gx-0">
+              <div className="row justify-content-center gx-0" id="pricing">
                 {plans.map((plan, index) => (
                   <div
                     className="col-lg-4 d-flex align-items-center"
@@ -78,8 +84,9 @@ const Plan = () => {
                           <small className="op-7 ms-1"> / year </small>
                         </div>
                       </div> */}
+
                       <ul>
-                        {plan.features.map((feature, i) => (
+                        {plan.features.slice(0, 6).map((feature, i) => (
                           <li
                             className="border-top py-3 op-8 fw-light text-uppercase"
                             key={i}
@@ -88,6 +95,40 @@ const Plan = () => {
                           </li>
                         ))}
                       </ul>
+                      {plan.features.length > 6 && (
+                        <div>
+                          {showMore[index] ? (
+                            <ul>
+                              {plan.features.slice(6).map((feature, i) => (
+                                <li
+                                  className="border-top py-3 op-8 fw-light text-uppercase"
+                                  key={i}
+                                >
+                                  {feature}
+                                </li>
+                              ))}
+                              <button
+                                className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue"
+                                style={{
+                                  fontSize: "13px",
+                                }}
+                                onClick={() => handleShowLess(index)}
+                              >
+                                Read less...
+                              </button>
+                            </ul>
+                          ) : (
+                            <button
+                              className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue"
+                              style={{ fontSize: "13px" }}
+                              onClick={() => handleShowMore(index)}
+                            >
+                              Read more...
+                            </button>
+                          )}
+                        </div>
+                      )}
+
                       <Link href="/contact">
                         <a className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue">
                           <span style={{ color: "#fff" }}>Contact Us</span>
@@ -107,7 +148,7 @@ const Plan = () => {
                 <Link href="/contact">
                   <a
                     className="text-decoration-underline"
-                    style={{ color: "#61218cff" }}
+                    style={{ color: "#ea15c2ff" }}
                   >
                     Contact us
                   </a>

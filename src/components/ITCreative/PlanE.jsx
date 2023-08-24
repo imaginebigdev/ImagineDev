@@ -1,5 +1,6 @@
 import Link from "next/link";
 import plansE from "@data/IT/plansE.json";
+import React, { useState } from "react";
 
 const PlanE = () => {
   const togglePlanDuration = (duration) => {
@@ -13,6 +14,15 @@ const PlanE = () => {
       yearly.forEach((price) => price.classList.add("show"));
       monthly.forEach((price) => price.classList.remove("show"));
     }
+  };
+  const [showMore, setShowMore] = useState({}); // Use an object to track showMore for each card
+
+  const handleShowMore = (index) => {
+    setShowMore((prevShowMore) => ({ ...prevShowMore, [index]: true }));
+  };
+
+  const handleShowLess = (index) => {
+    setShowMore((prevShowMore) => ({ ...prevShowMore, [index]: false }));
   };
 
   return (
@@ -39,7 +49,7 @@ const PlanE = () => {
           <div className="col-lg-10">
             <div className="content">
               <div className="toggle_switch d-flex align-items-center justify-content-center mb-20"></div>
-              <div className="row justify-content-center gx-0">
+              <div className="row justify-content-center gx-0" id="pricing">
                 {plansE.map((plan, index) => (
                   <div
                     className="col-lg-4 d-flex align-items-center"
@@ -79,7 +89,7 @@ const PlanE = () => {
                         </div>
                       </div> */}
                       <ul>
-                        {plan.features.map((feature, i) => (
+                        {plan.features.slice(0, 6).map((feature, i) => (
                           <li
                             className="border-top py-3 op-8 fw-light text-uppercase"
                             key={i}
@@ -88,6 +98,39 @@ const PlanE = () => {
                           </li>
                         ))}
                       </ul>
+                      {plan.features.length > 6 && (
+                        <div>
+                          {showMore[index] ? (
+                            <ul>
+                              {plan.features.slice(6).map((feature, i) => (
+                                <li
+                                  className="border-top py-3 op-8 fw-light text-uppercase"
+                                  key={i}
+                                >
+                                  {feature}
+                                </li>
+                              ))}
+                              <button
+                                className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue"
+                                style={{
+                                  fontSize: "13px",
+                                }}
+                                onClick={() => handleShowLess(index)}
+                              >
+                                Leer menos...
+                              </button>
+                            </ul>
+                          ) : (
+                            <button
+                              className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue"
+                              style={{ fontSize: "13px" }}
+                              onClick={() => handleShowMore(index)}
+                            >
+                              Leer más...
+                            </button>
+                          )}
+                        </div>
+                      )}
                       <Link href="/contact">
                         <a className="sm-butn btn border text-white radius-9 mt-50 w-100 hover-lightBlue border-lightBlue">
                           <span style={{ color: "#fff" }}>Contáctenos</span>
@@ -108,7 +151,7 @@ const PlanE = () => {
                 <Link href="/contact">
                   <a
                     className="text-decoration-underline"
-                    style={{ color: "#61218cff" }}
+                    style={{ color: "#ea15c2ff" }}
                   >
                     Contacta con nosotros
                   </a>
