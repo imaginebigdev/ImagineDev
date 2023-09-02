@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = ({ navbarRef, rtl }) => {
+const Navbarpy = ({ navbarRef }) => {
   const handleMouseMove = (event) => {
     const dropDownToggler = event.target.classList.contains("dropdown-toggle")
       ? event.target
@@ -45,25 +45,23 @@ const Navbar = ({ navbarRef, rtl }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
             <li className="nav-item dropdown">
-              <Link href="/en">
-                <span className="nav-link">Home</span>
+              <Link href="/py">
+                <span className="nav-link">Inicio</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about">
-                <span className="nav-link">About</span>
+              <Link href="/nosotrosPy">
+                <span className="nav-link">Nosotros</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link href="/aceleraClick">
+              <Link href="/aceleraClickes">
                 <span className="nav-link">Acelera Click</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link href="/contact">
-                <span className="nav-link">Contact</span>
+              <Link href="/contactoPy">
+                <span className="nav-link">Contacto</span>
               </Link>
             </li>
             <li style={{ padding: "4px" }}>
@@ -76,20 +74,22 @@ const Navbar = ({ navbarRef, rtl }) => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <img src="/assets/img/lang.png" alt="" className="me-2" />
-                    <span style={{ fontWeight: "bold" }}>English</span>
+                    <img src="/assets/img/py.png" alt="" className="me-2" />
+                    <span style={{ fontWeight: "bold", color: "#000" }}>
+                      Español
+                    </span>
                   </button>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <Link href="/es">
+                      <Link href="/en">
                         <span
-                          className="dropdown-item"
                           style={{ cursor: "pointer" }}
+                          className="dropdown-item"
                         >
-                          Spanish
+                          Inglés
                         </span>
                       </Link>
                     </li>
@@ -104,4 +104,4 @@ const Navbar = ({ navbarRef, rtl }) => {
   );
 };
 
-export default Navbar;
+export default Navbarpy;

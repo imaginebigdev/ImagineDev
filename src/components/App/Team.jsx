@@ -21,14 +21,25 @@ const Team = ({ en }) => {
                   <div className="img img-cover">
                     <img src={member.picture} alt="" />
                     <div className="social-icons">
-                      <a
-                        href={member.linkedin}
-                        className="me-1"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
+                      {member.whatsapp ? (
+                        <a
+                          href={member.whatsapp}
+                          className="me-1"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fab fa-whatsapp"></i>
+                        </a>
+                      ) : (
+                        <a
+                          href={member.linkedin}
+                          className="me-1"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="fab fa-linkedin-in"></i>
+                        </a>
+                      )}
                     </div>
                   </div>
                   <div className="info">

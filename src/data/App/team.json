@@ -1,4 +1,5 @@
 [
+  
   {
     "picture": "/assets/img/team/7.png",
     "name": "Nelson Andres Fuentes",
@@ -14,8 +15,8 @@
   {
     "picture": "/assets/img/team/2.png",
     "name": "Gaspar Muñoz",
-    "position2": "PM &",
-    "position": "Full Stack Web developer",
+    "position2": "Project Manager",
+    "position": "",
     "linkedin": "https://www.linkedin.com/in/gaspar-mu%C3%B1oz-7a9825239/"
   },
 
@@ -28,7 +29,7 @@
   {
     "picture": "/assets/img/team/1.png",
     "name": "Santiago Bonetto",
-    "position2": "PM &",
+    "position2": "",
     "position": "Full Stack Web developer",
     "linkedin": "https://www.linkedin.com/in/santiago-bonetto/"
   },
@@ -43,5 +44,23 @@
     "name": "Ana Actis",
     "position": "Seller & Customer Support",
     "linkedin": "https://www.linkedin.com/in/anaactis/"
+  },
+  {
+    "picture": "/assets/img/team/10.png",
+    "name": "Marko Schneider",
+    "position": "Full Stack Web developer",
+    "linkedin": "https://www.linkedin.com/in/anaactis/"
+  },
+  {
+    "picture": "/assets/img/team/avatar.png",
+    "name": "Diana Montserrat Genes",
+    "position": "DIGITAL RESELLER",
+    "whatsapp": "https://wa.me/595993540676"
+  },
+  {
+    "picture": "/assets/img/team/avatar.png",
+    "name": "Eder Roman Centurion",
+    "position": "DIGITAL RESELLER",
+    "whatsapp": "https://wa.me/595994409745"
   }
 ]

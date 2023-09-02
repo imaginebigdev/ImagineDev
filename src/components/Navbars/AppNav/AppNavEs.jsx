@@ -24,7 +24,7 @@ const NavbarEs = ({ navbarRef }) => {
 
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light style-4"
+      className="navbar navbar-expand-md navbar-light style-4"
       ref={navbarRef}
     >
       <div className="container">
