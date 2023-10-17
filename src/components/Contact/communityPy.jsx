@@ -23,7 +23,8 @@ const CommunityPy = () => {
               </div>
               <div className="inf">
                 <h6>{card.info}</h6>
-                <h6>{card.info2}</h6>
+                {/* <h6>{card.info2}</h6> */}
+                <h6>{card.info3}</h6>
               </div>
             </div>
           ))}
