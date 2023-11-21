@@ -34,7 +34,7 @@ const FooterPy = ({ noWave }) => {
           </h2>
           <p>El crecimiento de tu marca está a un clic de distancia</p>
           <div className="d-flex align-items-center justify-content-center mt-50">
-            <Link href="/contacto">
+            <Link href="https://wa.me/+595992642563">
               <small className="btn rounded-pill bg-blue4 fw-bold text-white me-4">
                 {" "}
                 CONTACTANOS
